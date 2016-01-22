@@ -1,0 +1,39 @@
+.home-cat-selector {
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin:0 0 40px 0;
+			li {
+				@extend .sys-button;
+				cursor: pointer;
+				margin-right: 20px;
+					@media screen and (max-width:$screen-sm){
+						margin-right:5px;
+					}
+					@media screen and (max-width: $screen-xs){
+						display: block;
+						margin-top:10px;
+					}
+			}
+			.active {
+				background: $light-grey;
+			}
+	}
+}
+
+.home-cat {
+	h2 {
+		@extend .row;
+		margin-top:0;
+		margin-bottom:40px;
+		line-height:100%;
+		padding:20px 15px;
+		border-left:solid 5px $light-blue;
+	}
+}
+
+.attachment-shop_catalog {
+	max-height:300px;
+	width:auto!important;
+	margin:0 auto 20px!important;
+}

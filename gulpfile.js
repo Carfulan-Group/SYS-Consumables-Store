@@ -9,7 +9,7 @@ var gulp = require('gulp'),
 
 // Concat and minify Javascript
 gulp.task('scripts',function() {
-	return gulp.src(['vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap.min.js','vendor/layzr/_layzr.js','assets/javascripts/_*.js'])
+	return gulp.src(['vendor/layzr/_layzr.js','assets/javascripts/_*.js'])
 	.pipe(plumb())
     .pipe(concat('build.js', {newLine: ';'})) 
 	.pipe(uglify())
