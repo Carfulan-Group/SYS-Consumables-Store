@@ -13,6 +13,9 @@ if ( is_user_logged_in() ) {
 			<li data-tab="hardware-cat">Hardware</li>
 		</ul>
 	</div>
+	<div class="home-search">
+		<input type="text" placeholder="Search">
+	</div>
 	<div class="home-cat-container">
 		<div class="home-cat all-cats model-cat">
 			<h2>Model Materials</h2>
@@ -31,9 +34,8 @@ if ( is_user_logged_in() ) {
 	<?php
 } else {
 	?>
-	<h1 class="page-title">Welcome to the SYS Systems Consumables store</h1>
+	<h1 class="page-title">SYS Systems Consumables Store</h1>
 	<section id="home-login" class="vertical-padding-large">
-	<p>In order to browse through a tailored list of available consumables, please log in:</p>
 		<?php
 		echo do_shortcode('[woocommerce_my_account]');
 		?>

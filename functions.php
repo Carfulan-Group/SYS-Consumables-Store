@@ -6,13 +6,12 @@ function woocommerce_support() {
     add_theme_support( 'woocommerce' );
 }
 
-// remove reviews yab from products
-
+// remove review & description tabs from products
 add_filter( 'woocommerce_product_tabs', 'sb_woo_remove_reviews_tab', 98);
 function sb_woo_remove_reviews_tab($tabs) {
 
- unset($tabs['reviews']);
- unset($tabs['description']);
+	unset($tabs['reviews']);
+	unset($tabs['description']);
 
  return $tabs;
 }
@@ -29,3 +28,10 @@ register_nav_menu( 'main-menu' , 'Main Menu' );
 register_nav_menu( 'footer-menu' , 'Footer Menu' );
 register_nav_menu( 'footer-quick-links' , 'Footer Quick Links' );
 register_nav_menu( 'lower-footer-menu' , 'Lower Footer Menu' );
+
+// log out redirect
+add_action('wp_logout','go_home');
+function go_home(){
+  wp_redirect( home_url() );
+  exit();
+}

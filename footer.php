@@ -12,7 +12,12 @@
 			</div>
 			<div class="col-md-3 col-md-push-6 col-sm-6 footer-menu">
 				<h6>Quick Links</h6>
-				<?php wp_nav_menu( array('theme_location' => 'footer-quick-links') ); ?>
+				<?php wp_nav_menu( array('theme_location' => 'footer-quick-links') );
+				if ( is_user_logged_in() ) : ?>
+					<a href="<?php echo wp_logout_url(); ?>">Log Out</a>
+				<?php
+				endif;
+				 ?>
 			</div>
 		</div>
 	</section>

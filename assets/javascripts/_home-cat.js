@@ -13,4 +13,4 @@ jQuery(document).ready(function($) {
 		$('.home-cat-container .home-cat').hide();
 		$('.home-cat-container .' + $toShow).show();
 	});
-});
+});	
