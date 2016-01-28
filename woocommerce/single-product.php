@@ -58,7 +58,7 @@
 			if ( wc_product_sku_enabled() && ( $product->get_sku() || $product->is_type( 'variable' ) ) ) : ?>
 
 				<hr>
-				<p><?php _e( '<strong>Product Code :</strong> ', 'woocommerce' ); ?> <?php echo ( $sku = $product->get_sku() ) ? $sku : __( 'N/A', 'woocommerce' ); ?></p>
+			<p><?php _e( '<strong>Product Code :</strong> ', 'woocommerce' ); ?> <?php echo ( $sku = $product->get_sku() ) ? $sku : __( 'N/A', 'woocommerce' ); ?></p>
 
 			<?php endif;
 

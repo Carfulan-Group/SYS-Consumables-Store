@@ -45,7 +45,6 @@
 		}
 
 		input {
-			padding: 10px 15px;
 			margin-top: 20px;
 		}
 
@@ -60,9 +59,6 @@
 
 	.single-product-up-sells
 	{
-		ul 
-		{
-			@extend .row;
-		}
+			padding: 0 15px;
 	}
 }
