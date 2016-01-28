@@ -1,51 +1,100 @@
 <?php
-/**
- * The Template for displaying all single products
- *
- * This template can be overridden by copying it to yourtheme/woocommerce/single-product.php.
- *
- * HOWEVER, on occasion WooCommerce will need to update template files and you (the theme developer).
- * will need to copy the new files to your theme to maintain compatibility. We try to do this.
- * as little as possible, but it does happen. When this occurs the version of the template file will.
- * be bumped and the readme will list any important changes.
- *
- * @see 	    http://docs.woothemes.com/document/template-structure/
- * @author 		WooThemes
- * @package 	WooCommerce/Templates
- * @version     1.6.4
- */
+	get_header('shop');
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
+	if ( have_posts() ):
+		while ( have_posts() ):
+			the_post();
 
-get_header( 'shop' ); ?>
+		woocommerce_breadcrumb();
 
-	<?php
-		/**
-		 * woocommerce_before_main_content hook.
-		 *
-		 * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
-		 * @hooked woocommerce_breadcrumb - 20
-		 */
-		do_action( 'woocommerce_before_main_content' );
-	?>
-	<h1 itemprop="name" class="page-title product-page-title"><?php the_title(); ?></h1>
+?>
 
+<h1 class="page-title">
+	<?php the_title(); ?>
+</h1>
 
-		<?php while ( have_posts() ) : the_post(); ?>
+<section id="single-product" class="row vertical-padding-large">
 
-			<?php wc_get_template_part( 'content', 'single-product' ); ?>
+	<div id="single-product-featured-image" class="col-sm-3 vertical-padding-large">
+		<?php
+			wc_get_template( 'single-product/product-image.php' );
+		?>
+		<img data-layzr="<?php echo $image; ?>" alt="">
+	</div>
 
-		<?php endwhile; // end of the loop. ?>
+	<div class="col-sm-6 vertical-padding-large">
+		<h3>Overview</h3>
+		<?php
+			// // //
+			// get description (this is the short description)
+			// // //
+			wc_get_template( 'single-product/short-description.php' );
 
-	<?php
-		/**
-		 * woocommerce_after_main_content hook.
-		 *
-		 * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
-		 */
-		do_action( 'woocommerce_after_main_content' );
-	?>
+			// // //
+			// has weight
+			// // //
+			if ( $product->has_weight() ) : $has_row = true; ?>
+			<p>
+				<hr>
+				<?php _e( '<strong>Weight', 'woocommerce' ) ?>
+				<?php echo " :</strong> " . $product->get_weight() . ' ' . esc_attr( get_option( 'woocommerce_weight_unit' ) ); ?>
+			</p>
+			<?php endif;
 
-<?php get_footer( 'shop' ); ?>
+			// // //
+			// has dimensions
+			// // //
+			if ( $product->has_dimensions() ) : $has_row = true; ?>
+				<p>
+					<hr>
+					<?php _e( '<strong>Dimensions', 'woocommerce' ) ?>
+					<?php echo " :</strong> " . $product->get_dimensions(); ?>
+				</p>
+			<?php endif;
+
+			// // //
+			// has SKU
+			// // //
+			if ( wc_product_sku_enabled() && ( $product->get_sku() || $product->is_type( 'variable' ) ) ) : ?>
+
+				<hr>
+				<p><?php _e( '<strong>Product Code :</strong> ', 'woocommerce' ); ?> <?php echo ( $sku = $product->get_sku() ) ? $sku : __( 'N/A', 'woocommerce' ); ?></p>
+
+			<?php endif;
+
+			// // //
+			// display categories
+			// // //
+			echo $product->get_categories( ', ', '<hr><p><strong>' . _n( 'Category :</strong>', 'Categories :</strong>', $cat_count, 'woocommerce' ) . ' ', '</p>' );
+
+			// // //
+			// display tags
+			// // //
+			echo $product->get_tags( ', ', '<hr><p><strong>' . _n( 'Tag :</strong>', 'Tags :</strong>', $tag_count, 'woocommerce' ) . ' ', '</p>' ); ?>
+	</div>
+
+	<div class="col-sm-3 vertical-padding-large">
+		<h3>Price</h3>
+		<?php
+			echo "<div class='single-product-price-container'>";
+				wc_get_template( 'single-product/price.php' );
+			echo "</div>";
+
+			wc_get_template( 'single-product/add-to-cart/simple.php' );
+		?>
+	</div>
+</section>
+
+<section id="single-after-product">
+	<div class="single-product-up-sells">
+		<?php
+			wc_get_template( 'single-product/up-sells.php' );
+		?>
+	</div>
+</section>
+
+<?php
+	endwhile;
+	endif;
+	get_footer('shop');
+?>

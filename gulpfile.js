@@ -55,5 +55,6 @@ gulp.task('default', function() {
 	gulp.watch('assets/javascripts/_*.js', ['scripts']);
 	gulp.watch('*.php', ['phprefresh']);
 	gulp.watch('page-templates/*.php', ['phprefresh']);
+	gulp.watch('woocommerce/**/*.php', ['phprefresh']);
 	gulp.watch('partials/*.php', ['phprefresh']);
 });

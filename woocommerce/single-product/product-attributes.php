@@ -28,22 +28,22 @@ $attributes = $product->get_attributes();
 ob_start();
 
 ?>
-<table class="shop_attributes">
+
 
 	<?php if ( $product->enable_dimensions_display() ) : ?>
 
 		<?php if ( $product->has_weight() ) : $has_row = true; ?>
-			<tr class="<?php if ( ( $alt = $alt * -1 ) === 1 ) echo 'alt'; ?>">
-				<th><?php _e( 'Weight', 'woocommerce' ) ?></th>
-				<td class="product_weight"><?php echo $product->get_weight() . ' ' . esc_attr( get_option( 'woocommerce_weight_unit' ) ); ?></td>
-			</tr>
+			<p>
+				<?php _e( 'Weight', 'woocommerce' ) ?>
+				<?php echo " : " . $product->get_weight() . ' ' . esc_attr( get_option( 'woocommerce_weight_unit' ) ); ?>
+			</p>
 		<?php endif; ?>
 
 		<?php if ( $product->has_dimensions() ) : $has_row = true; ?>
-			<tr class="<?php if ( ( $alt = $alt * -1 ) === 1 ) echo 'alt'; ?>">
-				<th><?php _e( 'Dimensions', 'woocommerce' ) ?></th>
-				<td class="product_dimensions"><?php echo $product->get_dimensions(); ?></td>
-			</tr>
+			<p>
+				<?php _e( 'Dimensions', 'woocommerce' ) ?>
+				<?php echo " : " . $product->get_dimensions(); ?>
+			</p>
 		<?php endif; ?>
 
 	<?php endif; ?>
@@ -55,9 +55,8 @@ ob_start();
 			$has_row = true;
 		}
 		?>
-		<tr class="<?php if ( ( $alt = $alt * -1 ) == 1 ) echo 'alt'; ?>">
-			<th><?php echo wc_attribute_label( $attribute['name'] ); ?></th>
-			<td><?php
+			<?php echo wc_attribute_label( $attribute['name'] ); ?>
+			<?php
 				if ( $attribute['is_taxonomy'] ) {
 
 					$values = wc_get_product_terms( $product->id, $attribute['name'], array( 'fields' => 'names' ) );
@@ -70,11 +69,8 @@ ob_start();
 					echo apply_filters( 'woocommerce_attribute', wpautop( wptexturize( implode( ', ', $values ) ) ), $attribute, $values );
 
 				}
-			?></td>
-		</tr>
+			?>
 	<?php endforeach; ?>
-
-</table>
 <?php
 if ( $has_row ) {
 	echo ob_get_clean();
