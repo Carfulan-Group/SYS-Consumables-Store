@@ -48,6 +48,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<input class="input-text" type="password" name="password" id="password" />
 			</p>
 
+			<input type="hidden" name="redirect" value="<?php echo site_url(); ?>" />
+
 			<?php do_action( 'woocommerce_login_form' ); ?>
 
 			<p class="form-row">

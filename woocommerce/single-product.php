@@ -1,4 +1,10 @@
 <?php
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
+
 	get_header('shop');
 
 	if ( have_posts() ):
@@ -6,14 +12,20 @@
 			the_post();
 
 		woocommerce_breadcrumb();
-
 ?>
 
 <h1 class="page-title">
 	<?php the_title(); ?>
 </h1>
 
+
+
 <section id="single-product" class="row vertical-padding-large">
+<div class="col-xs-12">
+	<?php
+		wc_print_notices();
+	?>
+</div>
 
 	<div id="single-product-featured-image" class="col-sm-3 vertical-padding-large">
 		<?php
