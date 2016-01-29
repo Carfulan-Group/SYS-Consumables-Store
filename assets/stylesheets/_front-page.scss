@@ -45,12 +45,13 @@
 	clear: both;
 	width: 100%;
 	h2 {
-		@extend .row;
+		// @extend .row;
 		margin-top:0;
 		margin-bottom:40px;
 		line-height:100%;
-		padding:20px 15px;
-		border-left:solid 5px $light-blue;
+		padding:20px 0;
+		// border-left:solid 5px $light-blue;
+		border-bottom: solid 2px $light-grey;
 	}
 }
 

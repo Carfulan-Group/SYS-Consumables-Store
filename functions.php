@@ -32,9 +32,4 @@ register_nav_menu( 'footer-menu' , 'Footer Menu' );
 register_nav_menu( 'footer-quick-links' , 'Footer Quick Links' );
 register_nav_menu( 'lower-footer-menu' , 'Lower Footer Menu' );
 
-// log out redirect
-add_action('wp_logout','go_home');
-function go_home(){
-  wp_redirect( home_url() );
-  exit();
-}
+
