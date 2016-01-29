@@ -21,42 +21,44 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 
 <?php wc_print_notices(); ?>
-
+<p>Here you can edit your account details, please leave details you do not wish to change.</p>
 <form class="edit-account" action="" method="post">
 
 	<?php do_action( 'woocommerce_edit_account_form_start' ); ?>
+<div class="row">
 
-	<p class="form-row form-row-first">
-		<label for="account_first_name"><?php _e( 'First name', 'woocommerce' ); ?> <span class="required">*</span></label>
-		<input type="text" class="input-text" name="account_first_name" id="account_first_name" value="<?php echo esc_attr( $user->first_name ); ?>" />
-	</p>
-	<p class="form-row form-row-last">
-		<label for="account_last_name"><?php _e( 'Last name', 'woocommerce' ); ?> <span class="required">*</span></label>
-		<input type="text" class="input-text" name="account_last_name" id="account_last_name" value="<?php echo esc_attr( $user->last_name ); ?>" />
-	</p>
-	<div class="clear"></div>
-
-	<p class="form-row form-row-wide">
-		<label for="account_email"><?php _e( 'Email address', 'woocommerce' ); ?> <span class="required">*</span></label>
-		<input type="email" class="input-text" name="account_email" id="account_email" value="<?php echo esc_attr( $user->user_email ); ?>" />
-	</p>
-
-	<fieldset>
-		<legend><?php _e( 'Password Change', 'woocommerce' ); ?></legend>
+	<div class="col-sm-6">
+	<h2>Change Details</h2>
+		<p class="form-row form-row-first">
+			<input type="text" placeholder="First Name" class="input-text" name="account_first_name" id="account_first_name" value="<?php echo esc_attr( $user->first_name ); ?>" />
+		</p>
+		<p class="form-row form-row-last">
+			<input type="text" placeholder="Last Name" class="input-text" name="account_last_name" id="account_last_name" value="<?php echo esc_attr( $user->last_name ); ?>" />
+		</p>
+		<div class="clear"></div>
 
 		<p class="form-row form-row-wide">
-			<label for="password_current"><?php _e( 'Current Password (leave blank to leave unchanged)', 'woocommerce' ); ?></label>
-			<input type="password" class="input-text" name="password_current" id="password_current" />
+			<input type="email" placeholder="Email" class="input-text" name="account_email" id="account_email" value="<?php echo esc_attr( $user->user_email ); ?>" />
 		</p>
-		<p class="form-row form-row-wide">
-			<label for="password_1"><?php _e( 'New Password (leave blank to leave unchanged)', 'woocommerce' ); ?></label>
-			<input type="password" class="input-text" name="password_1" id="password_1" />
-		</p>
-		<p class="form-row form-row-wide">
-			<label for="password_2"><?php _e( 'Confirm New Password', 'woocommerce' ); ?></label>
-			<input type="password" class="input-text" name="password_2" id="password_2" />
-		</p>
-	</fieldset>
+	</div>
+
+	<div class="col-sm-6">
+	<h2>Change Password</h2>
+		<fieldset>
+
+			<p class="form-row form-row-wide">
+				<input type="password" placeholder="Current Password" class="input-text" name="password_current" id="password_current" />
+			</p>
+			<p class="form-row form-row-wide">
+				<input type="password" placeholder="New Password" class="input-text" name="password_1" id="password_1" />
+			</p>
+			<p class="form-row form-row-wide">
+				<input type="password" placeholder="Confirm New Password" class="input-text" name="password_2" id="password_2" />
+			</p>
+		</fieldset>
+	</div>
+
+</div>
 	<div class="clear"></div>
 
 	<?php do_action( 'woocommerce_edit_account_form' ); ?>
