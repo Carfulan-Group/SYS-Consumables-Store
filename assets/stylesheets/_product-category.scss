@@ -1,0 +1,29 @@
+.tax-product_cat
+{
+
+.woocommerce-result-count
+{
+	margin:20px 20px 40px 0;
+	display: inline-block;
+}
+
+.woocommerce-ordering
+{
+	display: inline-block;
+	margin:20px 0 40px 0;
+}
+
+@media screen and (max-width: $screen-xs){
+	.woocommerce-ordering, .woocommerce-result-count
+	{
+		margin:20px 0 20px 0;
+		display: block;
+	}
+}
+
+
+} // end of tax-product_cat
+.products
+{
+	@extend .row;
+}

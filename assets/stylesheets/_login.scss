@@ -1,0 +1,41 @@
+#customer_login
+{
+	@extend .row;
+
+	h2
+	{
+		font-size: 2em;
+		border:none;
+		margin:0 0 20px 0;
+		padding: 0;
+	}
+
+	&>div
+	{
+		@extend .col-sm-6;
+	}
+
+	input
+	{
+		max-width: 200px;
+	}
+
+	input[type="checkbox"]
+	{
+		height: 20px;
+		width: 20px;
+	}
+}
+
+.rememberme
+{
+	display: block;
+	font-weight: normal;
+	line-height: 20px;
+	margin:0 0 20px 0;
+	input
+	{
+		transform:translatey(5px);
+		margin:0 10px 0 0; 
+	}
+}
