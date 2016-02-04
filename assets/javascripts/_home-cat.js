@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-	$('.home-cat-selector li').on('click', function(event) {
+	$('.home-cat-selector li').on('click', function() {
 		
 		// button appearance
 		$('.home-cat-selector .active').removeClass('active');
@@ -10,7 +10,7 @@ jQuery(document).ready(function($) {
 		$toShow = ($(this).data('tab'));
 
 		// hide / show divs
-		$('.home-cat-container .home-cat').hide();
+		$(".home-cat-container .home-cat").hide();
 		$('.home-cat-container .' + $toShow).show();
 	});
 });	

@@ -1,190 +1,208 @@
-html
-{
-    overflow-x:hidden;
-    overflow-y:scroll;
-    position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    min-height:100%;
+html {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
 }
 
-body
-{
-	background:$very-light-grey;
+body {
+	background: $very-light-grey;
 	font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    overflow-x:hidden; 
+	font-weight: 400;
+	overflow-x: hidden;
 	font-size: 16px;
 	max-width: 100%;
 	line-height: 150%;
-		@media screen and (max-width: 1200px){
-			font-size: 15px;
-		}
-}
-
-.admin-bar
-{
-	#sys-header
-{
-		top:32px;
-			@media screen and (max-width: 783px){
-				top: 46px;
-			}
+	@media screen and (max-width: 1200px) {
+		font-size: 15px;
 	}
 }
- 
-main
-{
-	// @extend .container;
-	// background:#fff;
-	overflow:hidden;
-	// box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1); 
-}
 
-img
-{
-	display: block;
-	max-width: 100%;
-	height: auto;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-.center
-{
-	margin-left:auto;
-	margin-right:auto;
-}
-
-.clear-head
-{
+.clear-head {
 	margin-top: 108px;
 }
 
-h1,h2,h3,h4,h5,h6
-{ 
-	font-weight: 500;
-}
-h1
-{ font-size: 2.4em; }
-h2
-{ font-size: 2.0em; }
-h3
-{ font-size: 1.8em; }
-h4
-{ font-size: 1.6em; }
-h5
-{ font-size: 1.4em; }
-h6
-{ font-size: 1.2em; }
-p
-{ font-size: 1em; }
-a,a:hover,a:focus,a:active,a:visited
-{ text-decoration: inherit; color:$light-blue; }
-
-b,strong
-{
-	font-weight: 500;
+%retract-head {
+	margin-bottom: -108px;
 }
 
-del, del *
-{
+main {
+	position: relative;
+}
+
+.loading {
+	display: none;
+	background: #fff;
+	@extend .clear-head;
+	@extend %retract-head;
+	@extend .container;
+	img {
+		margin: 50px auto;
+		animation: rotate 1s infinite;
+	}
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.admin-bar {
+	#sys-header {
+		top: 32px;
+		@media screen and (max-width: 783px) {
+			top: 46px;
+		}
+	}
+}
+
+main {
+	// @extend .container;
+	// background:#fff;
+	overflow: hidden;
+	// box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 2.4em;
+}
+
+h2 {
+	font-size: 2.0em;
+}
+
+h3 {
+	font-size: 1.8em;
+}
+
+h4 {
+	font-size: 1.6em;
+}
+
+h5 {
+	font-size: 1.4em;
+}
+
+h6 {
+	font-size: 1.2em;
+}
+
+p {
+	font-size: 1em;
+}
+
+a, a:hover, a:focus, a:active, a:visited {
+	text-decoration: inherit;
+	color: $light-blue;
+}
+
+b, strong {
+	font-weight: 500;
+}
+
+del, del * {
 	text-decoration: line-through;
 }
 
-.onsale
-{
+.onsale {
 	display: none;
 }
 
-.white
-{
+.white {
 	background: #fff;
 }
 
-ul
-{
+ul {
 	padding-left: 1em;
 }
 
-hr
-{
+hr {
 	padding: 0;
 	margin: 0;
-	background-color:$light-grey;
-	height:1px;
+	background-color: $light-grey;
+	height: 1px;
 }
 
-.sys-input
-{
-	padding: 10px;
-	border:none;
+.sys-input {
+	padding: 10px 15px;
+	border: none;
 	border-radius: 1px;
 	background: $very-light-grey;
 }
 
-.page-title
-{
+.page-title {
 	@extend .vertical-padding-large;
 	display: block;
 	border-bottom: solid 2px $light-grey;
-	margin:0;
-		h1
-{
-			margin:0;
-		}
-		h2
-{
-			margin:10px 0 0 0;
-			font-size: 1.4em;
-		}
+	margin: 0;
+	h1 {
+		margin: 0;
+	}
+	h2 {
+		margin: 10px 0 0 0;
+		font-size: 1.4em;
+	}
 }
 
-.woocommerce-breadcrumb
-{
-	margin:40px 0 -40px 0;
+.woocommerce-breadcrumb {
+	margin: 40px 0 -40px 0;
 }
 
-
-.product-page-title
-{
-	padding-top:0;
+.product-page-title {
+	padding-top: 0;
 }
 
-h1,h2,h3,h4,h5,h6,p,ul,ol,blockquote,code,pre,img
-{
-	margin:0 0 20px 0;
-	padding:0;
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, code, pre, img {
+	margin: 0 0 20px 0;
+	padding: 0;
 }
 
-ul, ol
-{
-	padding:0 0 0 30px;
+ul, ol {
+	padding: 0 0 0 30px;
 }
 
-input, select
-{
+input, select {
 	padding: 10px 15px;
-	border:solid 2px $light-grey;
+	border: solid 2px $light-grey;
 }
 
 // woocommerce general
 
-button, input[type="submit"]
-{
+button, input[type="submit"] {
 	@extend .sys-button;
 }
 
-.woocommerce-message
-{
+.woocommerce-message {
 	@extend .alert;
 	@extend .alert-success;
 }
 
-.woocommerce-error
-{
+.woocommerce-error {
 	@extend .alert;
 	@extend .alert-danger;
-		list-style-type:none;
+	list-style-type: none;
 }

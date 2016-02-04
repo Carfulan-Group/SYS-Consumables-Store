@@ -1,4 +1,4 @@
-.woocommerce-account, .woocommerce-edit-account
+.woocommerce-account, .woocommerce-edit-account, .woocommerce-edit-address
 {
 
 	.myaccount_user
@@ -12,19 +12,7 @@
 
 	h2,h3
 	{
-		padding-bottom: 10px;
-		border-bottom:solid 2px $light-grey;
-		margin-bottom: 20px;
-	}
-
-	h2 
-	{
 		font-size: 1.8em;
-	}
-
-	h3
-	{
-		font-size: 1.5em;
 	}
 
 	.page-title
@@ -32,30 +20,63 @@
 		padding-bottom: 40px; 
 	}
 
-	table
+}
+
+table
+{
+	display: block;
+	margin-bottom:40px;
+	overflow-x:auto;
+	
+	tr 
 	{
-		display: block;
-		margin-bottom:40px;
-		overflow-x:auto;
-		
-		tr 
-		{
-			background: $very-light-grey;
-				
-				&:nth-of-type(even)
-				{
-					background: $light-grey;
-				}
-		}
-
-		td, th
-		{
-			padding:5px 10px;
-		}
-
-		th
-		{
-			border-bottom: solid 1px $dark-grey;
-		}
+		background: $very-light-grey;
+			
+			&:nth-of-type(even)
+			{
+				background: $light-grey;
+			}
 	}
+
+	td, th
+	{
+		padding:5px 10px;
+	}
+}
+
+// // //
+// styles for edit address
+// // //
+label
+{
+	display: block;
+	width:100%;
+	font-weight: normal;
+}
+
+.form-grid
+{
+	column-count:3;
+	column-width: 33.0%;
+
+	@media (max-width: $screen-sm){
+		column-count:1;
+		column-width:100%;
+	}
+
+	p
+	{
+		column-break-inside : avoid;
+		break-inside: avoid-column;
+	}
+
+}
+
+
+// // //
+// styles for "view order"
+// // //
+.woocommerce-view-order
+{
+
 }

@@ -1,43 +1,43 @@
 .home-cat-selector {
-	float:left;
-	clear:none;
-	@media screen and (max-width: $screen-sm){
-		width:100%;
+	float: left;
+	clear: none;
+	@media screen and (max-width: $screen-sm) {
+		width: 100%;
 	}
 	ul {
 		list-style-type: none;
 		padding: 0;
-		margin:0 0 40px 0;
-			li {
-				@extend .sys-button;
-				cursor: pointer;
-				margin-right: 20px;
-					@media screen and (max-width:$screen-sm){
-						margin-right:5px;
-					}
-					@media screen and (max-width: $screen-xs){
-						display: block;
-						margin-top:10px;
-					}
+		margin: 0 0 40px 0;
+		li {
+			@extend .sys-button;
+			cursor: pointer;
+			margin-right: 20px;
+			@media screen and (max-width: $screen-sm) {
+				margin-right: 5px;
 			}
-			.active {
-				background: $light-grey;
+			@media screen and (max-width: $screen-xs) {
+				display: block;
+				margin-top: 10px;
 			}
+		}
+		.active {
+			background: $light-grey;
+		}
 	}
 }
 
 .home-search {
-	float:left;
-	clear:none;
-	@media screen and (max-width: $screen-sm){
-		width:100%;
+	float: left;
+	clear: none;
+	@media screen and (max-width: $screen-sm) {
+		width: 100%;
 		margin-bottom: 40px;
 	}
-		input {
-			border:solid 2px $light-blue;
-			padding:8px 15px;
-			width:100%;
-		}
+	input {
+		border: solid 2px $light-blue;
+		padding: 8px 15px;
+		width: 100%;
+	}
 }
 
 .home-cat {
@@ -46,21 +46,20 @@
 	width: 100%;
 	h2 {
 		// @extend .row;
-		margin-top:0;
-		margin-bottom:40px;
-		line-height:100%;
-		padding:20px 0;
+		margin-top: 0;
+		margin-bottom: 40px;
+		line-height: 100%;
+		padding: 20px 0;
 		// border-left:solid 5px $light-blue;
 		border-bottom: solid 2px $light-grey;
 	}
 }
 
-
 .products {
 	// @extend .row;
 	list-style-type: none;
 	padding: 0;
-	
+
 	li {
 		@extend .col-sm-3;
 		@extend .col-xs-6;
@@ -68,10 +67,10 @@
 		margin-bottom: 40px;
 
 		img {
-			margin:0 auto 20px auto;
+			margin: 0 auto 20px auto;
 		}
 		a {
-			h1,h2,h3,h4,h5,h6 {
+			h1, h2, h3, h4, h5, h6 {
 				color: $dark-grey;
 			}
 		}
@@ -80,16 +79,16 @@
 			display: none;
 		}
 
-		&:nth-child(4n+1){
-			float:left;
-			clear:both;
+		&:nth-child(4n+1) {
+			float: left;
+			clear: both;
 		}
 
-		@media screen and (max-width: $screen-sm){
-			&:nth-child(2n+1){
-				float:left;
-				clear:both;
-			}	
+		@media screen and (max-width: $screen-sm) {
+			&:nth-child(2n+1) {
+				float: left;
+				clear: both;
+			}
 		}
 	}
 

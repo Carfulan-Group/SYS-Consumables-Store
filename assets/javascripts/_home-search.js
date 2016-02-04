@@ -10,7 +10,7 @@ jQuery(document).ready(function($) {
 	      .indexOf(m[3].toUpperCase()) >= 0;
 	};
 
-	$('.home-search input').keyup(function() {
+	$('.home-search input').on("keyup", function() {
 		$input = $(this).val();
 			if (! $input){
 				$('.product').show();

@@ -1,3 +1,5 @@
+</div>
+<!-- end ajax container -->
 </main>
 <footer>
 	<section id="upper-footer" class="container">
