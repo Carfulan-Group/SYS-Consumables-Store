@@ -40,6 +40,24 @@ jQuery( document ).ready( function ( $ )
 			} );
 		}
 
+		//function reloadScripts ()
+		//{
+		//
+		//	console.log( "yo" );
+		//	//$( 'script' ).each( function ()
+		//	//{
+		//	//	$source = $( this ).attr( "src" );
+		//	//	$x = $source;
+		//	//	$( this ).remove();
+		//	//	//$( this ).attr( "src" , $source );
+		//	//	$newScript = document.createElement( 'script' );
+		//	//	$newScript.type = "text/javascript";
+		//	//	$newScript.src = $x;
+		//	//
+		//	//	document.getElementsByTagName( "head" )[ 0 ].appendChild( $newScript );
+		//	//} );
+		//}
+
 		$( 'a' ).on( "click" , function ( event )
 		{
 
