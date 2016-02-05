@@ -36,11 +36,19 @@ main {
 .loading {
 	display: none;
 	background: #fff;
-	@extend .clear-head;
-	@extend %retract-head;
-	@extend .container;
+	background: rgba(255, 255, 255, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
 	img {
-		margin: 50px auto;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		margin-left: -25px;
+		margin-top: -25px;
 		animation: rotate 1s infinite;
 	}
 }
