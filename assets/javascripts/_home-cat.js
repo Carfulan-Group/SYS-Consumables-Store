@@ -1,16 +1,18 @@
-jQuery(document).ready(function($) {
-	$('.home-cat-selector li').on('click', function() {
-		
+jQuery( document ).ready( function ( $ )
+{
+	$( '.home-cat-selector li' ).on( 'click' , function ()
+	{
+
 		// button appearance
-		$('.home-cat-selector .active').removeClass('active');
-		$(this).addClass('active');
+		$( '.home-cat-selector .active' ).removeClass( 'active' );
+		$( this ).addClass( 'active' );
 
 
 		// identify button & tab
-		$toShow = ($(this).data('tab'));
+		$toShow = ($( this ).data( 'tab' ));
 
 		// hide / show divs
-		$(".home-cat-container .home-cat").hide();
-		$('.home-cat-container .' + $toShow).show();
-	});
-});	
+		$( ".home-cat-container .home-cat" ).hide();
+		$( '.home-cat-container .' + $toShow ).show();
+	} );
+} );
