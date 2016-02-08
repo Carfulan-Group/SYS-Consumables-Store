@@ -7,19 +7,8 @@ function woocommerce_support ()
     add_theme_support ( 'woocommerce' );
 }
 
-// remove woocommerce styling
+// remove woocommerce stylingz
 add_filter ( 'woocommerce_enqueue_styles' , '__return_empty_array' );
-
-// remove review & description tabs from products
-add_filter ( 'woocommerce_product_tabs' , 'sb_woo_remove_reviews_tab' , 98 );
-function sb_woo_remove_reviews_tab ( $tabs )
-{
-
-    unset( $tabs[ 'reviews' ] );
-    unset( $tabs[ 'description' ] );
-
-    return $tabs;
-}
 
 // styles and scripts
 function theme_scripts ()
