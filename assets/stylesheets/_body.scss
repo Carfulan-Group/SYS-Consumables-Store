@@ -136,81 +136,85 @@ del, del * {
 	text-decoration: line-through;
 }
 
-.onsale {
-	display: none;
-}
+table, tbody, tr, td, th {
+	//width: 100%;
+	//}
 
-.white {
-	background: #fff;
-}
+	.onsale {
+		display: none;
+	}
 
-ul {
-	padding-left: 1em;
-}
+	.white {
+		background: #fff;
+	}
 
-hr {
-	padding: 0;
-	margin: 0;
-	background-color: $light-grey;
-	height: 1px;
-}
+	ul {
+		padding-left: 1em;
+	}
 
-.sys-input {
-	padding: 10px 15px;
-	border: none;
-	border-radius: 1px;
-	background: $very-light-grey;
-}
-
-.page-title {
-	@extend .vertical-padding-large;
-	display: block;
-	border-bottom: solid 2px $light-grey;
-	margin: 0;
-	h1 {
+	hr {
+		padding: 0;
 		margin: 0;
+		background-color: $light-grey;
+		height: 1px;
 	}
-	h2 {
-		margin: 10px 0 0 0;
-		font-size: 1.4em;
+
+	.sys-input {
+		padding: 10px 15px;
+		border: none;
+		border-radius: 1px;
+		background: $very-light-grey;
 	}
-}
 
-.woocommerce-breadcrumb {
-	margin: 40px 0 -40px 0;
-}
+	.page-title {
+		@extend .vertical-padding-large;
+		display: block;
+		border-bottom: solid 2px $light-grey;
+		margin: 0;
+		h1 {
+			margin: 0;
+		}
+		h2 {
+			margin: 10px 0 0 0;
+			font-size: 1.4em;
+		}
+	}
 
-.product-page-title {
-	padding-top: 0;
-}
+	.woocommerce-breadcrumb {
+		margin: 40px 0 -40px 0;
+	}
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, code, pre, img {
-	margin: 0 0 20px 0;
-	padding: 0;
-}
+	.product-page-title {
+		padding-top: 0;
+	}
 
-ul, ol {
-	padding: 0 0 0 30px;
-}
+	h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, code, pre, img {
+		margin: 0 0 20px 0;
+		padding: 0;
+	}
 
-input, select {
-	padding: 10px 15px;
-	border: solid 2px $light-grey;
-}
+	ul, ol {
+		padding: 0 0 0 30px;
+	}
 
-// woocommerce general
+	input, select {
+		padding: 10px 15px;
+		border: solid 2px $light-grey;
+	}
 
-button, input[type="submit"] {
-	@extend .sys-button;
-}
+	// woocommerce general
 
-.woocommerce-message {
-	@extend .alert;
-	@extend .alert-success;
-}
+	button, input[type="submit"] {
+		@extend .sys-button;
+	}
 
-.woocommerce-error {
-	@extend .alert;
-	@extend .alert-danger;
-	list-style-type: none;
-}
+	.woocommerce-message {
+		@extend .alert;
+		@extend .alert-success;
+	}
+
+	.woocommerce-error {
+		@extend .alert;
+		@extend .alert-danger;
+		list-style-type: none;
+	}
