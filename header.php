@@ -47,12 +47,11 @@
                         <span></span>
                     </div>
                     <?php
-                    require_once( ABSPATH . 'wp-includes/pluggable.php' );
-                    $groups_user = new Groups_User( get_current_user_id() );
-
-                        if ( $groups_user->can( 'My Consumables' ) )
+            
+                    
+                        if (is_user_logged_in ())
                         // // //
-                        // if users has access to My Consumables group
+                        // check if user is logged in
                         // // //
                         {
                             wp_nav_menu ( array ( 'theme_location' => 'main-menu' ) );
