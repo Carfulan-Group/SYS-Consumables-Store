@@ -15,7 +15,6 @@
     <meta name="theme-color" content="#0097d8">
     <!-- end of favicons -->
     <?php wp_head (); ?>
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri (); ?>/assets/stylesheets/main.css">
         <script>
             document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
         </script>
@@ -47,8 +46,8 @@
                         <span></span>
                     </div>
                     <?php
-            
-                    
+
+
                         if (is_user_logged_in ())
                         // // //
                         // check if user is logged in
@@ -56,7 +55,7 @@
                         {
                             wp_nav_menu ( array ( 'theme_location' => 'main-menu' ) );
                         }
-                    
+
                     ?>
                 </nav>
             </div>
