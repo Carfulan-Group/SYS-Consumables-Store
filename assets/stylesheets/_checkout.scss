@@ -1,5 +1,18 @@
-.woocommerce-thankyou-order-received {
-	@extend .alert;
-	@extend .alert-success;
-}
+.woocommerce-checkout {
 
+	.woocommerce-thankyou-order-received {
+		@extend .alert;
+		@extend .alert-success;
+	}
+
+	.wc_payment_methods {
+		display: none;
+	}
+
+	textarea {
+		width: 100%;
+		max-width: 300px;
+		height: 100px;
+	}
+
+}
