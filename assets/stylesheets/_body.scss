@@ -136,8 +136,9 @@ del, del * {
 	text-decoration: line-through;
 }
 
-table, tbody, tr, td, th {
-	width: 100%;
+td, th {
+	border-right: solid 1px #fff;
+	border-bottom: solid 1px #fff;
 }
 
 	.onsale {
