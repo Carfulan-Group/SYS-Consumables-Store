@@ -38,11 +38,11 @@ wc_print_notices(); ?>
 
 
 <div class="row">
-	<div class="col-sm-6">
+	<div class="col-sm-4">
 		<?php wc_get_template( 'myaccount/my-address.php' ); ?>
 	</div>
 
-	<div class="col-sm-6">
+	<div class="col-sm-8">
 		<?php wc_get_template( 'myaccount/my-downloads.php' ); ?>
 		<?php wc_get_template( 'myaccount/my-orders.php', array( 'order_count' => $order_count ) ); ?>
 	</div>
