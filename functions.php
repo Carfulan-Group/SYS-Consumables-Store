@@ -26,3 +26,6 @@ register_nav_menu ( 'main-menu' , 'Main Menu' );
 register_nav_menu ( 'footer-menu' , 'Footer Menu' );
 register_nav_menu ( 'footer-quick-links' , 'Footer Quick Links' );
 register_nav_menu ( 'lower-footer-menu' , 'Lower Footer Menu' );
+
+
+remove_action( 'woocommerce_cart_collaterals', 'woocommerce_cross_sell_display' , 10 );
