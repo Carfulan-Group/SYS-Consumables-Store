@@ -24,13 +24,14 @@ wc_print_notices(); ?>
 <p class="myaccount_user">
 	<span class="intro">
 	<?php
-		echo "<strong>Hello " . $current_user->user_firstname . "</strong><br><small>not " . $current_user->user_firstname . "? <a href='" . wp_logout_url() . "'>sign out.</a></small>"
-	?> </span> <?php
+		echo "<h3 style='margin:0;padding:0;'>Hello " . $current_user->user_firstname . "</h3><small>not " . $current_user->user_firstname . "? <a href='" . wp_logout_url() . "'>sign out.</a></small>"
+	?> </span><br> <?php
 	printf( __( '<br>From your account dashboard you can view your recent orders, manage your shipping and billing addresses and <a href="%s">edit your password and account details</a>.', 'woocommerce' ),
 		wc_customer_edit_account_url()
 	);
 
 	?>
+	<br><br>
 </p>
 
 <?php do_action( 'woocommerce_before_my_account' ); ?>
