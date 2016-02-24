@@ -136,9 +136,27 @@ del, del * {
 	text-decoration: line-through;
 }
 
-td, th {
-	border-right: solid 1px #fff;
-	border-bottom: solid 1px #fff;
+table
+{
+	width: 100%;
+}
+
+tr {
+	border-top:solid 1px $dark-grey;
+}
+
+th {
+	background: $very-light-grey;
+	padding:10px;
+	border-top:solid 1px #fff;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+td {
+	padding: 5px 10px;
+	// border-right: solid 2px $dark-grey;
 }
 
 	.onsale {

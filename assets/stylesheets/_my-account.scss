@@ -17,31 +17,9 @@
 
 	.page-title
 	{
-		padding-bottom: 40px; 
+		padding-bottom: 40px;
 	}
 
-}
-
-table
-{
-	display: block;
-	margin-bottom:40px;
-	overflow-x:auto;
-	
-	tr 
-	{
-		background: $very-light-grey;
-			
-			&:nth-of-type(even)
-			{
-				background: $light-grey;
-			}
-	}
-
-	td, th
-	{
-		padding:5px 10px;
-	}
 }
 
 // // //
