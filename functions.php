@@ -8,13 +8,20 @@ add_filter('register_form', 'set_registration_fields');
 add_filter('registration_errors', 'check_registration_errors', 10, 3);
 add_filter('woocommerce_registration_redirect', 'after_registration_redirect');
 add_filter('woocommerce_shipping_fields', 'set_shipping_fields');
-add_filter('woocommerce_checkout_fields', 'set_checkout_fields');
+add_filter('woocommerce_email_order_meta_keys', 'purchase_order_custom_field_order_meta_keys');
+// add_filter('woocommerce_checkout_fields', 'set_checkout_fields');
 add_filter('woocommerce_login_redirect', 'wc_login_redirect');
 add_filter('woocommerce_enqueue_styles', '__return_empty_array');
+add_filter( 'woocommerce_enable_order_notes_field', '__return_false' );
 
 // // //
 // add actions
 // // //
+add_action('woocommerce_after_order_notes', 'purchase_order_custom_field');
+add_action('woocommerce_checkout_update_user_meta', 'purchase_order_custom_field_update_user_meta');
+add_action('woocommerce_checkout_process', 'purchase_order_custom_field_process');
+add_action('woocommerce_checkout_update_order_meta', 'purchase_order_custom_field_update_order_meta');
+add_action('new_customer_registered', 'new_customer_registered_send_email_admin');
 add_action('wp_logout', 'redirect_after_logout');
 add_action('woocommerce_created_customer', 'add_extra_registration_fields');
 add_action('login_head', 'sys_login_logo');
@@ -29,6 +36,24 @@ remove_action('woocommerce_cart_collaterals', 'woocommerce_cross_sell_display', 
 
 // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //
 
+
+// // //
+// send admin new user emails
+// // //
+function new_customer_registered_send_email_admin($user_login) {
+    ob_start();
+    do_action('woocommerce_email_header', 'New customer registered');
+    $email_header = ob_get_clean();
+    ob_start();
+    do_action('woocommerce_email_footer');
+    $email_footer = ob_get_clean();
+
+    woocommerce_mail(
+    get_bloginfo('admin_email'),
+    get_bloginfo('name').' - New customer registered',
+    $email_header.'<p>The user "'.esc_html( $user_login ).'" made an account on the SYS Consumables Store, click <a href="' . admin_url() . '">here</a> to set up their account.</p>'.$email_footer
+);
+}
 
 // // //
 // declare woocommerce support
@@ -77,7 +102,8 @@ function sys_login_logo()
     {
         background-image: url(' . get_bloginfo('template_directory') . '/assets/images/sys-logo.png) !important;
         width:100%!important;
-        background-size:auto!important;}
+        background-size:auto!important;
+    }
 </style>';
 }
 
@@ -167,23 +193,6 @@ function set_shipping_fields($fields)
 }
 
 // // //
-// add in purchase order field
-// // //
-function set_checkout_fields($fields)
-{
-    $fields['billing']['checkout_purchase_order'] = array(
-        'label' => __('Purchase Order', 'woocommerce'),
-        'placeholder' => _x('Purchase Order', 'placeholder', 'woocommerce'),
-        'required' => true,
-        'class' => array(
-            'form-row-wide'
-        ),
-        'clear' => true
-    );
-    return $fields;
-}
-
-// // //
 // change the page user is taken to after login
 // // //
 function wc_login_redirect($redirect_to)
@@ -197,6 +206,64 @@ function wc_login_redirect($redirect_to)
 // // //
 function woocommerce_register_redirect($redirect)
 {
-    $redirect = 'http://google.com/';
+    $redirect = site_url();
     return $redirect;
+}
+
+// // //
+// add p.o field to checkout
+// // //
+function purchase_order_custom_field( $checkout ) {
+
+	echo '<div id="purchase_order_custom_field">';
+
+	// // //
+    // output the p.o field
+    // // //
+	woocommerce_form_field( 'purchase_order', array(
+		'type' 			=> 'text',
+		'required' 		=> true,
+        'class' 		=> array('col-sm-4'),
+		'label' 		=> __('Purchase Order Number'),
+		'placeholder' 	=> __('P.O'),
+    ), $checkout->get_value( 'purchase_order' ));
+
+	echo '</div>';
+
+}
+
+// // //
+// Process the checkout
+// // //
+function purchase_order_custom_field_process() {
+	global $woocommerce;
+
+		if (!$_POST['purchase_order']){
+            wc_add_notice( sprintf( __( "Please enter a purchase order number.", "English" ) ) ,'error' );
+        }
+
+}
+
+// // //
+// save p.o value to user
+// // //
+function purchase_order_custom_field_update_user_meta( $user_id ) {
+	if ($user_id && $_POST['purchase_order']) update_user_meta( $user_id, 'purchase_order', esc_attr($_POST['purchase_order']) );
+}
+
+// // //
+// save p.o to order
+// // //
+function purchase_order_custom_field_update_order_meta( $order_id ) {
+	if ($_POST['purchase_order']) update_post_meta( $order_id, 'Purchase Order', esc_attr($_POST['purchase_order']));
+}
+
+// // //
+// add p.o to order emails
+// // //
+function purchase_order_custom_field_order_meta_keys( $keys ) {
+	$keys[] = 'Purchase Order';
+    echo "<h2>Additional Information</h2><li class='remove_p_height'>";
+	return $keys;
+    echo "</li>";
 }
