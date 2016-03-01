@@ -38,7 +38,7 @@ foreach ( $items as $item_id => $item ) :
 
 				// SKU
 				if ( $show_sku && is_object( $_product ) && $_product->get_sku() ) {
-					echo ' (#' . $_product->get_sku() . ')';
+					echo '<br>SKU: ' . $_product->get_sku();
 				}
 
 				// allow other plugins to add additional product information here
@@ -65,8 +65,8 @@ foreach ( $items as $item_id => $item ) :
 	}
 
 	if ( $show_purchase_note && is_object( $_product ) && ( $purchase_note = get_post_meta( $_product->id, '_purchase_note', true ) ) ) : ?>
-		<tr>
-			<td colspan="3" style="text-align:left; vertical-align:middle; border: 1px solid #eee; font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;"><?php echo wpautop( do_shortcode( wp_kses_post( $purchase_note ) ) ); ?></td>
+		<tr class="order_item">
+			<td class="td" colspan="3" style="text-align:left; vertical-align:middle; border: 1px solid #eee; font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;"><?php echo wpautop( do_shortcode( wp_kses_post( $purchase_note ) ) ); ?></td>
 		</tr>
 	<?php endif; ?>
 

@@ -60,6 +60,9 @@ $text_lighter_20 = wc_hex_lighter( $text, 20 );
 
 #template_header h1 {
     color: <?php echo esc_attr( $base_text ); ?>;
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
 }
 
 #template_footer td {
@@ -108,6 +111,14 @@ $text_lighter_20 = wc_hex_lighter( $text, 20 );
 .td {
     color: <?php echo esc_attr( $text_lighter_20 ); ?>;
     border: 1px solid <?php echo esc_attr( $body_darker_10 ); ?>;
+}
+
+.remove_p_height p {
+    margin:0;
+}
+
+.remove_p_height * {
+    margin:0;
 }
 
 .text {
