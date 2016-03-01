@@ -65,6 +65,17 @@ $show_purchase_note = $order->has_status ( apply_filters ( 'woocommerce_purchase
                 <?php
             }
             ?>
+            <tr>
+                <th>
+                    P.O:
+                </th>
+                <td>
+                    <?php
+                    $pon = get_post_meta($order->id,'Purchase Order',true);
+                    echo $pon;
+                    ?>
+                </td>
+            </tr>
             </tfoot>
         </table>
     </div>
