@@ -136,19 +136,19 @@ del, del * {
 	text-decoration: line-through;
 }
 
-table
-{
+table {
 	width: 100%;
+	overflow-x: auto;
 }
 
 tr {
-	border-top:solid 1px $dark-grey;
+	border-top:solid 1px $light-grey;
 }
 
 th {
 	background: $very-light-grey;
 	padding:10px;
-	border-top:solid 1px #fff;
+	// border-top:solid 1px #fff;
 	font-weight: normal;
 	text-transform: uppercase;
 	font-style: italic;
