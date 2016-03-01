@@ -14,8 +14,7 @@ function itemSearch ( el )
 		{
 			el.style.display = "block";
 		} );
-	}
-	else {
+	} else {
 		Array.prototype.forEach.call( product , function ( el )
 		{
 			var h3Content = el.querySelector( "h3" ).innerHTML.toLowerCase();
