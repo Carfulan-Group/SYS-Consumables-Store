@@ -8,7 +8,7 @@ if (is_user_logged_in ())
 {
     ?>
 
-        <?php
+    <?php
         require_once( ABSPATH . 'wp-includes/pluggable.php' );
         $groups_user = new Groups_User( get_current_user_id() );
 
@@ -21,7 +21,7 @@ if (is_user_logged_in ())
                  . ", here's a list of compatible products:</h1>";
                  wc_print_notices ();
             ?>
-            <section id="home-products" class="vertical-padding-large">
+        <section id="home-products" class="vertical-padding-large">
             <div class="home-cat-selector">
                 <ul>
                     <li class="active" onclick="catSelect(this)" data-tab="all-cats">All</li>
@@ -57,12 +57,16 @@ if (is_user_logged_in ())
         {
             echo "<h1 class='page-title'>Hello " . $current_user->user_firstname . "</h1>";
             wc_print_notices ();
-            echo '<section id="home-products" class="vertical-padding-large">';
-            echo "<p>Our team is busy tailoring your account to your needs and equipment. You will be alerted when we are done, thank you for your patience.</p>";
+            ?>
+                <section id="home-products" class="vertical-padding-large">
+                    <p>Our team is busy tailoring your account to your needs and equipment. You will be alerted when we are done, thank you for your patience.</p>
+
+                    <p>While you're waiting, why not finish setting up your account <a href="<?php echo site_url(); ?>/my-account/edit-address/billing/">here.</a></p>
+                    <?php
         }
         ?>
-        </section>
-        <?php
+                </section>
+                <?php
 }
 
 else
@@ -71,13 +75,13 @@ else
 // // //
 {
     ?>
-    <h1 class="page-title">SYS Systems Consumables Store</h1>
-    <section id="home-login" class="vertical-padding-large">
-        <?php
+                    <h1 class="page-title">SYS Systems Consumables Store</h1>
+                    <section id="home-login" class="vertical-padding-large">
+                        <?php
         echo do_shortcode ( '[woocommerce_my_account]' );
         ?>
-    </section>
-    <?php
+                    </section>
+                    <?php
 }
 
 get_footer ();
