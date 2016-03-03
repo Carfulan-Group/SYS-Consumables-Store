@@ -11,8 +11,8 @@ var gulp = require('gulp'),
 gulp.task('scripts',function() {
 	return gulp.src(['vendor/layzr/_layzr.js','assets/javascripts/_*.js'])
 	.pipe(plumb())
-    .pipe(concat('build.js', {newLine: ';'})) 
-	.pipe(uglify())
+    .pipe(concat('build.js'))
+	// .pipe(uglify())
     .pipe(gulp.dest('assets/javascripts/'))
 	.pipe(livereload());
 });

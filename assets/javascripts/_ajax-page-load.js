@@ -1,68 +1,45 @@
-//jQuery(document).ready(function ($) {
+// // Stuff to do as soon as the DOM is ready.
+// jQuery(document).ready(function ($) {
 //
-//    var $main = $('main'),
-//        $loading = $('.loading'),
-//        $url = $('#header-logo').parent().attr("href"),
-//        $title = document.title,
-//        $titleEnding = $title.split("|")[1];
+//     $('body').on( "click" , "a" , function(event) {
+//         // stop browser from following link
+//         event.preventDefault();
 //
+//         var page = {
+//             oldLink : window.location.href,
+//             oldTitle : document.title,
+//             newLink : $(this).attr("href"),
 //
-//    // loading animation
-//    $(document).on({
-//        ajaxStart: function () {
-//            $loading.show();
-//        },
-//        ajaxStop: function () {
-//            $loading.hide();
-//        }
-//    });
+//             getNewContent : function (item) {
+//                 var getContent = "",
+//                     getTitle = "",
+//                     tempDiv = $("<div />");
 //
-//    function urlUpdate($oldLink, $theLink, $linkText) {
-//        window.history.pushState($oldLink, $linkText + ' | ' + $titleEnding, $theLink);
+//                 tempDiv.load( this.newLink , function () {
+//                     getContent = tempDiv.find(".ajax_container");
+//                     getTitle = tempDiv.find("title");
+//                 });
 //
-//        document.title = $linkText + " | " + $titleEnding;
-//    }
+//                 items = {
+//                     content : getContent,
+//                     title : getTitle
+//                 }
 //
-//    function activeMenuItem() {
-//        $('.current-menu-item').removeClass("current-menu-item");
-//
-//        var $newLink = window.location.href;
-//
-//        $("a").each(function () {
-//            if ($(this).attr("href") == $newLink)
-//                $(this).parent('li').addClass("current-menu-item");
-//        });
-//    }
-//
-//    $('a').on("click", function (event) {
-//        event.preventDefault();
-//
-//        var $oldLink = window.location.href,
-//            $theLink = $(this).attr("href"),
-//            $linkText = $(this).html();
-//
-//        if (!$(this).find("img").is("#header-logo")) {} else {
-//            $linkText = "My Consumables | " + $titleEnding;
-//        }
-//
-//        if ($theLink.match($url)) {
-//            $(document).scrollTop(0);
-//            $main.load($theLink + " .ajax-container");
-//            urlUpdate($oldLink, $theLink, $linkText);
-//            activeMenuItem();
-//            //reloadScripts();
-//        } else {
-//            window.location.replace($theLink);
-//        }
-//
-//    });
+//                 return items[item];
+//             }
+//         };
 //
 //
-//    window.onpopstate = function () {
-//        $('main').load(location.href + " .ajax-container");
-//        activeMenuItem();
+//         document.title = page.getNewContent("title");
+//         // $('.ajax_container').html(page.getNewContent("content"));
 //
-//        $linkText = $('.current-menu-item a').html();
-//        document.title = $linkText + " | " + $titleEnding;
-//    };
-//});
+//         window.alert(page.getNewContent("content"));
+//
+//         // $('.ajax_container').html( page.newContent("content") );
+//
+//         // $('meta[name=description]').remove();
+//         // $('head').append( '<meta name="description" content="this is new">' );
+//
+//     });
+//
+// });

@@ -20,21 +20,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 
-<section id="single-product" class="row vertical-padding-large">
+<section id="single-product" class="row">
 <div class="col-xs-12">
 	<?php
 		wc_print_notices();
 	?>
 </div>
 
-	<div id="single-product-featured-image" class="col-sm-3 vertical-padding-large">
-		<?php
-			wc_get_template( 'single-product/product-image.php' );
-		?>
-		<img data-layzr="<?php echo $image; ?>" alt="">
-	</div>
-
-	<div class="col-sm-6 vertical-padding-large">
+	<div class="col-sm-8 vertical-padding-large">
 		<h3>Overview</h3>
 		<?php
 			// // //
@@ -85,7 +78,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			echo $product->get_tags( ', ', '<hr><p><strong>' . _n( 'Tag :</strong>', 'Tags :</strong>', $tag_count, 'woocommerce' ) . ' ', '</p>' ); ?>
 	</div>
 
-	<div class="col-sm-3 vertical-padding-large">
+	<div class="col-sm-4 vertical-padding-large">
 		<h3>Price</h3>
 		<?php
 			echo "<div class='single-product-price-container'>";
