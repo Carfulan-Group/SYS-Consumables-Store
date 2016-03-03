@@ -29,15 +29,24 @@
 .home-search {
 	float: left;
 	clear: none;
+
 	@media screen and (max-width: $screen-sm) {
 		width: 100%;
 		margin-bottom: 40px;
 	}
+
+	.home-search-select {
+		display: inline;
+		margin-right:20px;
+	}
+
 	input {
 		border: solid 2px $light-blue;
 		padding: 8px 15px;
-		width: 100%;
+		// width: 100%;
+		margin: 0;
 	}
+
 }
 
 .home-cat {
@@ -47,11 +56,11 @@
 	h2 {
 		// @extend .row;
 		margin-top: 0;
-		margin-bottom: 40px;
+		// margin-bottom: 40px;
 		line-height: 100%;
 		padding: 20px 0;
 		// border-left:solid 5px $light-blue;
-		border-bottom: solid 2px $light-grey;
+		// border-bottom: solid 2px $light-grey;
 	}
 }
 
@@ -68,6 +77,10 @@
 
 		img {
 			margin: 0 auto 20px auto;
+		}
+
+		del {
+			color: $light-grey;
 		}
 
 		a {
