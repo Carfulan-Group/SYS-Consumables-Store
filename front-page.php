@@ -19,9 +19,9 @@ if (is_user_logged_in ())
         {
             echo "<h1 class='page-title'>Hello " . $current_user->user_firstname
                  . ", here's a list of compatible products:</h1>";
-                 wc_print_notices ();
             ?>
         <section id="home-products" class="vertical-padding-large">
+            <?php wc_print_notices (); ?>
             <div class="home-cat-selector">
                 <ul>
                     <li class="active" onclick="catSelect(this)" data-tab="all-cats">All</li>
