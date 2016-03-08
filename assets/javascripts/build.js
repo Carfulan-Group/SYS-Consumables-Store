@@ -10,52 +10,21 @@ var layzr = new Layzr({
   threshold: 70
 });
 
-// // Stuff to do as soon as the DOM is ready.
 // jQuery(document).ready(function ($) {
-//
-//     $('body').on( "click" , "a" , function(event) {
-//         // stop browser from following link
+//     $('body').on('click', 'a', function (event) {
 //         event.preventDefault();
-//
-//         var page = {
-//             oldLink : window.location.href,
-//             oldTitle : document.title,
-//             newLink : $(this).attr("href"),
-//
-//             getNewContent : function (item) {
-//                 var getContent = "",
-//                     getTitle = "",
-//                     tempDiv = $("<div />");
-//
-//                 tempDiv.load( this.newLink , function () {
-//                     getContent = tempDiv.find(".ajax_container");
-//                     getTitle = tempDiv.find("title");
-//                 });
-//
-//                 items = {
-//                     content : getContent,
-//                     title : getTitle
-//                 }
-//
-//                 return items[item];
-//             }
-//         };
-//
-//
-//         document.title = page.getNewContent("title");
-//         // $('.ajax_container').html(page.getNewContent("content"));
-//
-//         window.alert(page.getNewContent("content"));
-//
-//         // $('.ajax_container').html( page.newContent("content") );
-//
-//         // $('meta[name=description]').remove();
-//         // $('head').append( '<meta name="description" content="this is new">' );
-//
-//     });
-//
-// });
 
+//         var link = $(this).attr("href");
+
+//         $('body').append("<div style='display:none;' id='new_content'></div>");
+
+//         $('#new_content').load(link + " #body");
+
+//         // var newHtml = $('#new_content').html();
+
+//         // $('.ajax_container').html(newHtml);
+//     }); 
+// });
 function catSelect ( el )
 {
 
