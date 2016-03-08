@@ -20,27 +20,31 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 
-<section id="single-product" class="row">
+<section id="single-product" class="row vertical-padding">
 <div class="col-xs-12">
 	<?php
 		wc_print_notices();
 	?>
 </div>
 
-	<div class="col-sm-8 vertical-padding-large">
+	<div class="col-sm-6 col-sm-push-3 vertical-padding">
 		<h3>Overview</h3>
 		<?php
 			// // //
 			// get description (this is the short description)
 			// // //
 			wc_get_template( 'single-product/short-description.php' );
-
+        ?>
+	</div>
+    
+    <div class="col-sm-3 col-sm-pull-6 vertical-padding">
+        <h3>Details</h3>
+        <?php
 			// // //
 			// has weight
 			// // //
 			if ( $product->has_weight() ) : $has_row = true; ?>
 			<p>
-				<hr>
 				<?php _e( '<strong>Weight', 'woocommerce' ) ?>
 				<?php echo " :</strong> " . $product->get_weight() . ' ' . esc_attr( get_option( 'woocommerce_weight_unit' ) ); ?>
 			</p>
@@ -51,7 +55,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			// // //
 			if ( $product->has_dimensions() ) : $has_row = true; ?>
 				<p>
-					<hr>
+
 					<?php _e( '<strong>Dimensions', 'woocommerce' ) ?>
 					<?php echo " :</strong> " . $product->get_dimensions(); ?>
 				</p>
@@ -62,7 +66,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 			// // //
 			if ( wc_product_sku_enabled() && ( $product->get_sku() || $product->is_type( 'variable' ) ) ) : ?>
 
-				<hr>
 			<p><?php _e( '<strong>Product Code :</strong> ', 'woocommerce' ); ?> <?php echo ( $sku = $product->get_sku() ) ? $sku : __( 'N/A', 'woocommerce' ); ?></p>
 
 			<?php endif;
@@ -70,15 +73,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 			// // //
 			// display categories
 			// // //
-			echo $product->get_categories( ', ', '<hr><p><strong>' . _n( 'Category :</strong>', 'Categories :</strong>', $cat_count, 'woocommerce' ) . ' ', '</p>' );
+			echo $product->get_categories( ', ', '<p><strong>' . _n( 'Category :</strong>', 'Categories :</strong>', $cat_count, 'woocommerce' ) . ' ', '</p>' );
 
 			// // //
 			// display tags
 			// // //
-			echo $product->get_tags( ', ', '<hr><p><strong>' . _n( 'Tag :</strong>', 'Tags :</strong>', $tag_count, 'woocommerce' ) . ' ', '</p>' ); ?>
-	</div>
-
-	<div class="col-sm-4 vertical-padding-large">
+			echo $product->get_tags( ', ', '<p><strong>' . _n( 'Tag :</strong>', 'Tags :</strong>', $tag_count, 'woocommerce' ) . ' ', '</p>' ); ?>
+        
+    </div>
+    
+	<div class="col-sm-3 vertical-padding">
 		<h3>Price</h3>
 		<?php
 			echo "<div class='single-product-price-container'>";
@@ -88,6 +92,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			wc_get_template( 'single-product/add-to-cart/simple.php' );
 		?>
 	</div>
+    
 </section>
 
 <section id="single-after-product">
