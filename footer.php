@@ -34,7 +34,7 @@
 				</div>
 				<div id="lower-footer-carfulan" class="col-sm-4">
 					<a href="http://carfulan.com" title="Visit the Carfulan Group" target="_blank">
-						<p>A Carfulan Group company</p>
+						<p>A Carfulan Group Company</p>
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/carfulan-group-logo.png" alt="Carfulan Group Logo">
 					</a>
 				</div>
