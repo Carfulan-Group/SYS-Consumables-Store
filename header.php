@@ -3,8 +3,7 @@
 
 <head>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500italic,500' rel='stylesheet' type='text/css'>
-    <title>
-        <?php the_title (); ?> | SYS Systems Consumables Store</title>
+    <title><?php the_title (); ?> | SYS Systems Consumables Store</title>
     <meta charset="<?php bloginfo ( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width">
     <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -20,7 +19,7 @@
         </script>
 </head>
 
-<body <?php body_class (); ?>>
+<body id="body" <?php body_class (); ?>>
     <header id="sys-header">
         <section id="upper-header">
             <div class="container">
@@ -40,11 +39,6 @@
                      id="header-logo" class="pull-left" title="SYS Systems 3D Printing" alt="SYS Systems Logo">
             </a>
                 <nav id="main-menu">
-                    <div id="burger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
                     <?php
 
 
@@ -53,6 +47,13 @@
                         // check if user is logged in
                         // // //
                         {
+                            ?>
+                            <div id="burger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <?php
                             wp_nav_menu ( array ( 'theme_location' => 'main-menu' ) );
                         }
 
