@@ -4,7 +4,7 @@
   "description": "The SYS Systems website",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^2.3.1",
     "gulp-concat": "^2.6.0",
     "gulp-livereload": "^3.8.1",
