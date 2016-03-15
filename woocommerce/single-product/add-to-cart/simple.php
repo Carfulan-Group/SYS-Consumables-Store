@@ -41,6 +41,8 @@ if ( ! $product->is_purchasable() ) {
 
 	<p class="price"><strong>Price : </strong>£<?php echo $product->get_price(); ?></p>
 
+	<p class="quantity-simple"><strong>Quantity : </strong></p>
+
 	<form class="cart" method="post" enctype='multipart/form-data'>
 	 	<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
 
