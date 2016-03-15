@@ -31,13 +31,13 @@ $tag_count = sizeof( get_the_terms( $post->ID, 'product_tag' ) );
 
 	<?php if ( wc_product_sku_enabled() && ( $product->get_sku() || $product->is_type( 'variable' ) ) ) : ?>
 
-		<p><strong><?php _e( 'Product Code : ', 'woocommerce' ); ?></strong> <?php echo ( $sku = $product->get_sku() ) ? $sku : __( 'N/A', 'woocommerce' ); ?></p>
+		<span class="sku_wrapper"><?php _e( 'SKU:', 'woocommerce' ); ?> <span class="sku" itemprop="sku"><?php echo ( $sku = $product->get_sku() ) ? $sku : __( 'N/A', 'woocommerce' ); ?></span></span>
 
 	<?php endif; ?>
 
-	<?php echo $product->get_categories( ', ', '<p><strong>' . _n( 'Category : </strong>', 'Categories : </strong>', $cat_count, 'woocommerce' ) , '</p>' ); ?>
+	<?php echo $product->get_categories( ', ', '<span class="posted_in">' . _n( 'Category:', 'Categories:', $cat_count, 'woocommerce' ) . ' ', '</span>' ); ?>
 
-	<?php echo $product->get_tags( ', ', '<p><strong>' . _n( 'Compatible : </strong>', 'Compatible : </strong>', $tag_count, 'woocommerce' ) , '</p>' ); ?>
+	<?php echo $product->get_tags( ', ', '<span class="tagged_as">' . _n( 'Tag:', 'Tags:', $tag_count, 'woocommerce' ) . ' ', '</span>' ); ?>
 
 	<?php do_action( 'woocommerce_product_meta_end' ); ?>
 

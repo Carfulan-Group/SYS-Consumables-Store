@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     </div>
 
     <div class="woocommerce-variation-price">
-        {{{ data.variation.price_html }}}
+        <strong>Price : </strong>{{{ data.variation.price_html }}}
     </div>
 
     <div class="woocommerce-variation-availability">

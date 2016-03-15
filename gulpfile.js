@@ -12,7 +12,7 @@ gulp.task('scripts',function() {
 	return gulp.src(['vendor/layzr/_layzr.js','assets/javascripts/_*.js'])
 	.pipe(plumb())
     .pipe(concat('build.js'))
-	// .pipe(uglify())
+	.pipe(uglify())
     .pipe(gulp.dest('assets/javascripts/'))
 	.pipe(livereload());
 });

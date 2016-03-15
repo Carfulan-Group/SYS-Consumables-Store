@@ -16,8 +16,8 @@ function catSelect ( el )
 		el.style.display = "none";
 	} );
 
-	var n = document.querySelectorAll( ".home-cat-container ." + toShow );
-	Array.prototype.forEach.call( n , function ( el )
+	var ct = document.querySelectorAll( ".home-cat-container ." + toShow );
+	Array.prototype.forEach.call( ct , function ( el )
 	{
 		el.style.display = "block";
 	} );

@@ -76,7 +76,7 @@ jQuery(document).ready(function($) {
     // this function removes the "-" and capitalizes the names of the machines
     formatMachineNames($);
 
-    // this functions add the machines to the select box, ready for the user to filter by
+    // this function adds the machines to the select box, ready for the user to filter by
     addMachineOptions($);
 
     $('.home-search-select').on('change', function () {

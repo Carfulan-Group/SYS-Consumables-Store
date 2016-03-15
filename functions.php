@@ -14,6 +14,7 @@ add_filter('woocommerce_login_redirect', 'wc_login_redirect');
 add_filter('woocommerce_enqueue_styles', '__return_empty_array');
 add_filter( 'woocommerce_enable_order_notes_field', '__return_false' );
 add_filter( 'woocommerce_cart_item_thumbnail', '__return_empty_string' );
+add_filter('woocommerce_available_variation', 'woocommerce_show_price_fix', 10, 3);
 
 // // //
 // add actions
@@ -40,6 +41,18 @@ remove_action( 'woocommerce_before_single_product_summary', 'woocommerce_show_pr
 
 // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //
 
+// // //
+// fix to display price on variable products where all variables have the same price
+// // //
+function woocommerce_show_price_fix ($value, $object = null, $variation = null)
+{
+    if ($value['price_html'] == '')
+    {
+        $value['price_html'] =  $variation->get_price_html() . '</span>';
+    }
+
+    return $value;
+};
 
 // // //
 // send admin new user emails
@@ -75,7 +88,7 @@ function theme_scripts()
     wp_enqueue_style('main-css', get_template_directory_uri() . '/assets/stylesheets/main.css');
     wp_enqueue_script('main-js', get_template_directory_uri() . '/assets/javascripts/build.js', array(
         'jquery'
-    ), '1.0.0', true);
+    ), '1.0.5', true);
 }
 
 // // //
@@ -168,7 +181,6 @@ function remove_review_tab($tabs)
 {
 
     unset($tabs['reviews']);
-    unset($tabs['description']);
 
     return $tabs;
 }

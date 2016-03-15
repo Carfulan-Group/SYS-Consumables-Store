@@ -40,7 +40,7 @@
 	.cart
 	{
 	
-		input, button {
+		input, button, select {
 			width:100%;
 		}
 
@@ -51,6 +51,10 @@
 		button {
 			margin-top: 20px;
 		}
+
+		select {
+			margin-bottom: 20px;
+		}
 	}
 
 	hr {
@@ -60,5 +64,14 @@
 	.single-product-up-sells
 	{
 			padding: 0 15px;
+	}
+
+	.price {
+		display: inline;
+	}
+
+	.woocommerce-variation-price {
+		display: block;
+		margin: 0 0 20px 0;
 	}
 }
