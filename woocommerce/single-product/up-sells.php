@@ -48,7 +48,12 @@ if ( $products->have_posts() ) : ?>
 
 	<div class="upsells products">
 
-		<h2 class="related-products-heading"><?php echo "Support materials for "; echo the_title() . " : "; ?></h2>
+		<h2 class="related-products-heading">
+		<?php
+		the_title();
+		echo " compatible materials : ";
+		?>
+		</h2>
 
 		<?php woocommerce_product_loop_start(); ?>
 
