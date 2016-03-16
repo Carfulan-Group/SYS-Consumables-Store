@@ -68,6 +68,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <section id="single-after-product">
 	<div class="single-product-up-sells">
 		<?php
+			woocommerce_upsell_display();
 			woocommerce_output_related_products();
 		?>
 	</div>

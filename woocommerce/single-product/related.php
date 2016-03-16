@@ -25,7 +25,7 @@ if ( empty( $product ) || ! $product->exists() ) {
 	return;
 }
 
-$related = $product->get_related( $posts_per_page );
+$related = $product->get_cross_sells( $posts_per_page );
 
 if ( sizeof( $related ) === 0 ) return;
 
@@ -47,7 +47,12 @@ if ( $products->have_posts() ) : ?>
 
 	<div class="related products">
 
-		<h2 class="related-products-heading"><?php _e( 'Related Products', 'woocommerce' ); ?></h2>
+		<h2 class="related-products-heading">
+			<?php
+			the_title();
+			echo " compatible hardware : ";
+			?>
+		</h2>
 
 		<?php woocommerce_product_loop_start(); ?>
 
