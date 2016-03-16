@@ -36,14 +36,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 <section id="single-product" class="product row vertical-padding">
 
 	<div class="col-xs-12">
-		<?php
-			wc_print_notices();
-		?>
+		<?php wc_print_notices(); ?>
 	</div>
 
 	<div class="col-sm-6 col-sm-push-3 vertical-padding">
 		<h3>Overview</h3>
-		<?php the_content(); ?>
+		<?php
+		$x = get_the_content();
+		if ( $x != '' )
+		{
+			the_content();
+		} else {
+			echo "Sorry, this product has no description.";
+		}
+
+		?>
 	</div>
 
     <div class="col-sm-3 col-sm-pull-6 vertical-padding">
@@ -52,10 +59,8 @@ if ( ! defined( 'ABSPATH' ) ) {
     </div>
 
 	<div class="col-sm-3 vertical-padding">
-		<h3>Cart</h3>
-		<?php
-			woocommerce_template_single_add_to_cart();
-		?>
+		<h3>Buy</h3>
+		<?php woocommerce_template_single_add_to_cart(); ?>
 	</div>
 
 </section>
