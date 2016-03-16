@@ -32,7 +32,7 @@ if (is_user_logged_in ())
             </div>
             <div class="home-search">
                 <select class="home-search-select">
-                    <option selected="selected" value="0">By Machine</option>
+                    <option selected="selected" value="0">Filter</option>
                 </select>
                 <input type="text" placeholder="Search" onkeyup="itemSearch(this)">
             </div>
