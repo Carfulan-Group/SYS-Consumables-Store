@@ -49,7 +49,7 @@ function removeDuplicateMachines($,list) {
 function formatMachineNames($) {
     $.each(allProducts, function(y) {
         allProductsHuman[y] = allProducts[y]
-        .replace("-", " ")
+        .replace("-", " ").replace("-", " ").replace("-", " ")
         .toLowerCase()
         .replace( /\b./g, function(a){
             return a.toUpperCase();
@@ -80,7 +80,7 @@ jQuery(document).ready(function($) {
     addMachineOptions($);
 
     $('.home-search-select').on('change', function () {
-        var value = $(this).val().toLowerCase().replace(" ", "-");
+        var value = $(this).val().toLowerCase().replace(" ", "-").replace(" ", "-").replace(" ", "-");
 
         if ( value == 0 ) {
             $('.product').show();

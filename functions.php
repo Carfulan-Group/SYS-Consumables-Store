@@ -19,6 +19,7 @@ add_filter('woocommerce_available_variation', 'woocommerce_show_price_fix', 10, 
 // // //
 // add actions
 // // //
+add_action( 'init', 'machines' );
 add_action('woocommerce_after_order_notes', 'purchase_order_custom_field');
 add_action('woocommerce_checkout_update_user_meta', 'purchase_order_custom_field_update_user_meta');
 add_action('woocommerce_checkout_process', 'purchase_order_custom_field_process');
@@ -282,4 +283,43 @@ function purchase_order_custom_field_order_meta_keys( $keys ) {
     echo "<h2>Additional Information</h2><li class='remove_p_height'>";
 	return $keys;
     echo "</li>";
+}
+
+// // //
+// adds machine taxonomy, this is for filtering on the shop page
+// // //
+function machines() {
+
+    $labels = array(
+        'name'                    => _x( 'Machines', 'Machines', 'machines' ),
+        'singular_name'            => _x( 'Machine', 'Machine', 'machines' ),
+        'search_items'            => __( 'Search Machines', 'machines' ),
+        'popular_items'            => __( 'Popular Machines', 'machines' ),
+        'all_items'                => __( 'All Machines', 'machines' ),
+        'parent_item'            => __( 'Parent Machine', 'machines' ),
+        'parent_item_colon'        => __( 'Parent Machine', 'machines' ),
+        'edit_item'                => __( 'Edit Machine', 'machines' ),
+        'update_item'            => __( 'Update Machine', 'machines' ),
+        'add_new_item'            => __( 'Add New Machine', 'machines' ),
+        'new_item_name'            => __( 'New Machine Name', 'machines' ),
+        'add_or_remove_items'    => __( 'Add or remove Machines', 'machines' ),
+        'choose_from_most_used'    => __( 'Choose from most used machines', 'machines' ),
+        'menu_name'                => __( 'Machine', 'machines' ),
+    );
+
+    $args = array(
+        'labels'            => $labels,
+        'public'            => true,
+        'show_in_nav_menus' => true,
+        'show_admin_column' => false,
+        'hierarchical'      => false,
+        'show_tagcloud'     => true,
+        'show_ui'           => true,
+        'query_var'         => true,
+        'rewrite'           => true,
+        'query_var'         => true,
+        'capabilities'      => array(),
+    );
+
+    register_taxonomy( 'taxonomy-slug', array( 'product' ), $args );
 }
