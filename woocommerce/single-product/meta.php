@@ -38,7 +38,9 @@ $tag_count = sizeof( get_the_terms( $post->ID, 'product_tag' ) );
 
 	<?php echo $product->get_categories( ', ', '<p><strong>' . _n( 'Category : </strong>', 'Categories : </strong>', $cat_count, 'woocommerce' ) , '</p>' ); ?>
 
-	<?php echo $product->get_tags( ', ', '<p><strong>' . _n( 'Tags : </strong>', 'Tags : </strong>', $tag_count, 'woocommerce' ) , '</p>' ); ?>
+	<p><strong>Compatible : </strong>
+	<?php get_available_machines_options($type = 'span'); ?>
+	</p>
 
 	<?php do_action( 'woocommerce_product_meta_end' ); ?>
 
