@@ -67,6 +67,9 @@ function get_available_machines_options ( $type )
     // get user accesible groups from id
     $groups = $groups_user->__get( 'groups' );
 
+    // sets variabvle to see if first item or not for comma
+    $first = 1;
+
     // for each group the iser has access to
     foreach ( $groups as $group ) {
         $name = strtoupper($group->name);
@@ -85,7 +88,22 @@ function get_available_machines_options ( $type )
             }
             else
             {
-                echo "<span>" . $name . "</span>";
+                // // //
+                // if needs comma or not
+                // // //
+
+                // if first of loop
+                if ( $first == 1 )
+                {
+                    $first = 0;
+                    echo "<span>" . strtolower($name) . "</span>";
+                }
+
+                // if not first of loop
+                else
+                {
+                    echo ", <span>" . strtolower($name) . "</span>";
+                }
             }
         }
     } // end foreach
