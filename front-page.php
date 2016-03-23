@@ -1,21 +1,24 @@
 <?php
 get_header ();
 
-if (is_user_logged_in ())
 // // //
 // check if user is logged in
 // // //
+if (is_user_logged_in ())
 {
     ?>
 
     <?php
-        require_once( ABSPATH . 'wp-includes/pluggable.php' );
+
+        // // //
+        // get user id
+        // // //
         $groups_user = new Groups_User( get_current_user_id() );
 
-        if ( $groups_user->can( 'My Consumables' ) )
         // // //
         // if users has access to My Consumables group
         // // //
+        if ( $groups_user->can( 'My Consumables' ) )
         {
             echo "<h1 class='page-title'>Hello " . $current_user->user_firstname
                  . ", here's a list of compatible products:</h1>";
@@ -33,6 +36,9 @@ if (is_user_logged_in ())
             <div class="home-search">
                 <select class="home-search-select">
                     <option selected="selected" value="0">Filter</option>
+                    <?php
+                        get_available_machines_options($type = 'option');
+                    ?>
                 </select>
                 <input type="text" placeholder="Search" onkeyup="itemSearch(this)">
             </div>
@@ -53,10 +59,10 @@ if (is_user_logged_in ())
             <?php
         }
 
-        else
         // // //
         // if user account has not been set up yet
         // // //
+        else
         {
             echo "<h1 class='page-title'>Hello " . $current_user->user_firstname . "</h1>";
             wc_print_notices ();
@@ -72,10 +78,10 @@ if (is_user_logged_in ())
                 <?php
 }
 
-else
 // // //
 // if user isn't logged in
 // // //
+else
 {
     ?>
                     <h1 class="page-title">SYS Systems Consumables Store</h1>
@@ -86,6 +92,7 @@ else
                     </section>
                     <?php
 }
+
 
 get_footer ();
 ?>
