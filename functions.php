@@ -56,6 +56,44 @@ function woocommerce_show_price_fix ($value, $object = null, $variation = null)
 };
 
 // // //
+// outputs the machine and material options a user has access to
+// // //
+function get_available_machines_options ( $type )
+{
+
+    // get user id
+    $groups_user = new Groups_User( get_current_user_id() );
+
+    // get user accesible groups from id
+    $groups = $groups_user->__get( 'groups' );
+
+    // for each group the iser has access to
+    foreach ( $groups as $group ) {
+        $name = strtoupper($group->name);
+
+        // This removes any user groups that aren't products, i.e. register & foundation sheets or my consumables
+        if ( !strpos($name, 'CONSUMABLES') AND !strpos($name, 'EGISTERED') AND !strpos($name, 'OUNDATION') ) {
+
+            // defines the type of output
+            if ( $type == 'option')
+            {
+                echo "<option value='" . $name . "'>" . $name . "</option>";
+            }
+            elseif ( $type == 'list' )
+            {
+                echo "<li>" . $name . "</li>";
+            }
+            else
+            {
+                echo "<span>" . $name . "</span>";
+            }
+        }
+    } // end foreach
+
+} // end get_available_machine_options
+
+
+// // //
 // send admin new user emails
 // // //
 function new_customer_registered_send_email_admin($user_login) {
@@ -311,7 +349,7 @@ function machines() {
         'labels'            => $labels,
         'public'            => true,
         'show_in_nav_menus' => true,
-        'show_admin_column' => false,
+        'show_admin_column' => true,
         'hierarchical'      => false,
         'show_tagcloud'     => true,
         'show_ui'           => true,
