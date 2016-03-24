@@ -96,13 +96,13 @@ function get_available_machines_options ( $type )
                 if ( $first == 1 )
                 {
                     $first = 0;
-                    echo "<span>" . strtolower($name) . "</span>";
+                    echo "<span>" . $name . "</span>";
                 }
 
                 // if not first of loop
                 else
                 {
-                    echo ", <span>" . strtolower($name) . "</span>";
+                    echo ", <span>" . $name . "</span>";
                 }
             }
         }
@@ -125,7 +125,7 @@ function new_customer_registered_send_email_admin($user_login) {
     woocommerce_mail(
     get_bloginfo('admin_email'),
     get_bloginfo('name').' - New customer registered',
-    $email_header.'<p>The user "'.esc_html( $user_login ).'" made an account on the SYS Consumables Store, click <a href="' . admin_url() . '">here</a> to set up their account.</p>'.$email_footer
+    $email_header.'<p>The user "'.esc_html( $user_login ).'" made an account on the SYS Consumables Store, click <a href="' . admin_url() . 'users.php">here</a> to set up their account.</p>'.$email_footer
 );
 }
 
