@@ -377,5 +377,5 @@ function machines() {
         'capabilities'      => array(),
     );
 
-    register_taxonomy( 'taxonomy-slug', array( 'product' ), $args );
+    register_taxonomy( 'taxonomy-machines', array( 'product' ), $args );
 }
