@@ -67,5 +67,3 @@
         <img data-layzr="<?php echo get_template_directory_uri (); ?>/assets/images/sys-logo-blob.png" height="57" width="55" alt="SYS Logo Circle Only">
     </div>
     <main class="clear-head white container">
-        <div class="ajax_container">
-                <div class="ajax_content">
