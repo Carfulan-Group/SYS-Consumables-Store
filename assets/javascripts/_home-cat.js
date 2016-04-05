@@ -22,3 +22,13 @@ function catSelect ( el )
 		el.style.display = "block";
 	} );
 }
+
+// the function below counts how many products there are and displays the number next to the "All" button
+jQuery(document).ready(function($) {
+	var productCounter = 0;
+	$('.product').each(function (){
+		productCounter ++;
+	});
+
+	$('.home-cat-selector li:first').append(" (" + productCounter + ")")
+});
