@@ -23,6 +23,9 @@ if (is_user_logged_in ())
             echo "<h1 class='page-title'>Hello " . $current_user->user_firstname
                  . ", here's a list of compatible products:</h1>";
             ?>
+        <span class="user-groups"><?php
+            get_available_machines_options($type = 'comma');
+        ?></span>
         <section id="home-products" class="vertical-padding-large">
             <?php wc_print_notices (); ?>
             <div class="home-cat-selector">
@@ -35,25 +38,22 @@ if (is_user_logged_in ())
             </div>
             <div class="home-search">
                 <select class="home-search-select">
-                    <option selected="selected" value="0">Filter</option>
-                    <?php
-                        get_available_machines_options($type = 'option');
-                    ?>
+                    <option selected="selected" value="0">Filter By Machine</option>
                 </select>
                 <input type="text" placeholder="Search" onkeyup="itemSearch(this)">
             </div>
             <div class="home-cat-container">
                 <div class="home-cat all-cats model-cat">
                     <h2>Model Materials</h2>
-                    <?php echo do_shortcode ( '[product_category category="model material"]' ); ?>
+                    <?php echo do_shortcode ( '[product_category category="model material" per_page="-1"]' ); ?>
                 </div>
                 <div class="home-cat all-cats support-cat">
                     <h2>Support Materials</h2>
-                    <?php echo do_shortcode ( '[product_category category="support material"]' ); ?>
+                    <?php echo do_shortcode ( '[product_category category="support material" per_page="-1"]' ); ?>
                 </div>
                 <div class="home-cat all-cats hardware-cat">
                     <h2>Printing Hardware</h2>
-                    <?php echo do_shortcode ( '[product_category category="hardware"]' ); ?>
+                    <?php echo do_shortcode ( '[product_category category="hardware" per_page="-1"]' ); ?>
                 </div>
             </div>
             <?php

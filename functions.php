@@ -86,11 +86,26 @@ function get_available_machines_options ( $type )
             {
                 echo "<li>" . $name . "</li>";
             }
+            elseif ( $type == 'comma' )
+            {
+                // if needs comma or not
+
+                // if first of loop
+                if ( $first == 1 )
+                {
+                    $first = 0;
+                    echo $name;
+                }
+
+                // if not first of loop
+                else
+                {
+                    echo ", " . $name;
+                }
+            }
             else
             {
-                // // //
                 // if needs comma or not
-                // // //
 
                 // if first of loop
                 if ( $first == 1 )

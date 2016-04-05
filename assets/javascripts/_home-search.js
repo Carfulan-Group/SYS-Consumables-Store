@@ -1,37 +1,31 @@
-function itemSearch ( el )
-{
-	var input = el.value.toLowerCase() ,
-		product = document.querySelectorAll( '.product' ) ,
-		title = document.querySelectorAll( '.home-cat-container h2' );
+function itemSearch(el) {
 
-	if ( ! input ) { // show all products and titles if search is empty
-		Array.prototype.forEach.call( product , function ( el )
-		{
-			el.style.display = "block";
-		} );
+    var search = {
+        input   : el.value.toLowerCase(),
+        product : document.querySelectorAll('.product'),
+        title   : document.querySelectorAll('.home-cat-container h2')
+    };
 
-		Array.prototype.forEach.call( title , function ( el )
-		{
-			el.style.display = "block";
-		} );
-	} else {
-		Array.prototype.forEach.call( product , function ( el )
-		{
-			var h3Content = el.querySelector( "h3" ).innerHTML.toLowerCase();
+    // show all products and search.titles if search is empty
+    if (!search.input) {
+        Array.prototype.forEach.call(search.product, function(el) {
+            el.style.display = "block";
+        });
 
-			if ( h3Content.indexOf( input ) ) {
-				el.style.display = "none";
-			}
-			else {
-				el.style.display = "block";
-			}
-		} );
+    // end if input is empty
+    } else {
+        Array.prototype.forEach.call(search.product, function(el) {
+            var h3Content = el.querySelector("h3").innerHTML.toLowerCase();
 
-		Array.prototype.forEach.call( title , function ( el )
-		{
-			el.style.display = "none";
-		} );
+            if (h3Content.indexOf(search.input)) {
+                el.style.display = "none";
+            } else {
+                el.style.display = "block";
+            }
+        });
 
-	}
+    // end if input val > 0
+    }
 
+// end itemSearch()
 }
