@@ -2,7 +2,6 @@
 <html <?php language_attributes (); ?>>
 
 <head>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500italic,500' rel='stylesheet' type='text/css'>
     <title><?php the_title (); ?> | SYS Systems Consumables Store</title>
     <meta charset="<?php bloginfo ( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width">
