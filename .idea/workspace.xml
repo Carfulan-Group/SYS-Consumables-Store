@@ -4,32 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6dbe16d-b0b9-4395-b67b-f37e8f898d3b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Sam.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascripts/_smoothstate-initiate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/smoothstate/smoothstate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/_home-cat.js" afterPath="$PROJECT_DIR$/assets/javascripts/_home-cat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/_home-search.js" afterPath="$PROJECT_DIR$/assets/javascripts/_home-search.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/_home_search_by_machines.js" afterPath="$PROJECT_DIR$/assets/javascripts/_home_search_by_machines.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/_masonry.js" afterPath="$PROJECT_DIR$/assets/javascripts/_masonry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/_menu.js" afterPath="$PROJECT_DIR$/assets/javascripts/_menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/build.js" afterPath="$PROJECT_DIR$/assets/javascripts/build.js" />
+    <list default="true" id="c6dbe16d-b0b9-4395-b67b-f37e8f898d3b" name="Default" comment="Made table heading normal case again">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/_body.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/_body.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/_my-account.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/_my-account.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/_single-product.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/_single-product.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/assets/stylesheets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-page.php" afterPath="$PROJECT_DIR$/front-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/single-product.php" afterPath="$PROJECT_DIR$/woocommerce/single-product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/single-product/add-to-cart/simple.php" afterPath="$PROJECT_DIR$/woocommerce/single-product/add-to-cart/simple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/single-product/add-to-cart/variable.php" afterPath="$PROJECT_DIR$/woocommerce/single-product/add-to-cart/variable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php" afterPath="$PROJECT_DIR$/woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/single-product/add-to-cart/variation.php" afterPath="$PROJECT_DIR$/woocommerce/single-product/add-to-cart/variation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/single-product/meta.php" afterPath="$PROJECT_DIR$/woocommerce/single-product/meta.php" />
     </list>
     <ignored path="sys-consumables-store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_body.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_body.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1204">
-              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="44" selection-end-column="11" />
+            <state relative-caret-position="191">
+              <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -64,23 +42,23 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1036">
-              <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+            <state relative-caret-position="364">
+              <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
               <folding>
-                <marker date="1460545426610" expanded="true" signature="7780:7996" placeholder="..." />
-                <marker date="1460545426610" expanded="true" signature="7795:7988" placeholder="{...}" />
-                <marker date="1460545426610" expanded="true" signature="8313:8322" placeholder="..." />
-                <marker date="1460545426610" expanded="true" signature="8358:8548" placeholder="..." />
+                <marker date="1460555354393" expanded="true" signature="7780:7996" placeholder="..." />
+                <marker date="1460555354393" expanded="true" signature="7795:7988" placeholder="{...}" />
+                <marker date="1460555354393" expanded="true" signature="8313:8322" placeholder="..." />
+                <marker date="1460555354393" expanded="true" signature="8358:8548" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single-product.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="single-product.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/woocommerce/single-product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+            <state relative-caret-position="266">
+              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
               <folding>
                 <element signature="e#7#699#0#PHP" expanded="true" />
               </folding>
@@ -199,9 +177,9 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/vendor/smoothstate/smoothstate.js" />
         <option value="$PROJECT_DIR$/assets/javascripts/_smoothstate-initiate.js" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/_body.scss" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/woocommerce/single-product.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/_body.scss" />
       </list>
     </option>
   </component>
@@ -712,7 +690,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="gu&#9;ACTION&#9;ActivateGulpToolWindow&#10;single pro&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;single&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;header&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/header.php&#10;func&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;bod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;fr&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;footer&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/footer.php&#10;gulp&#9;ACTION&#9;ActivateGulpToolWindow&#10;funct&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;bo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;si&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;body&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;sing&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;fron&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;front&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;function&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;single-&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;searc&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;header.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/header.php&#10;single-product.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;home&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;commit&#9;ACTION&#9;ChangesView.Commit&#10;functions.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php" />
+    <property name="SearchEverywhereHistoryKey" value="bo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;gu&#9;ACTION&#9;ActivateGulpToolWindow&#10;single pro&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;single&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;header&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/header.php&#10;func&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;bod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;fr&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;footer&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/footer.php&#10;gulp&#9;ACTION&#9;ActivateGulpToolWindow&#10;funct&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;si&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;body&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;sing&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;fron&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;front&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;function&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;single-&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;searc&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;header.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/header.php&#10;single-product.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;home&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;commit&#9;ACTION&#9;ChangesView.Commit&#10;functions.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../sys" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -776,12 +754,12 @@
       <workItem from="1460444561587" duration="23922000" />
       <workItem from="1460530976439" duration="170000" />
       <workItem from="1460531159807" duration="13315000" />
-      <workItem from="1460551068680" duration="3367000" />
+      <workItem from="1460551068680" duration="4393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58580000" />
+    <option name="totallyTimeSpent" value="59606000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -794,18 +772,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08306709" sideWeight="0.5292308" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08306709" sideWeight="0.47076923" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13128205" sideWeight="0.49737877" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.50262123" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09846154" sideWeight="0.49475753" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09846154" sideWeight="0.49475753" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12307692" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08306709" sideWeight="0.5292308" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08306709" sideWeight="0.47076923" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.4789189" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14217253" sideWeight="0.5210811" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -827,6 +806,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Made table heading normal case again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made table heading normal case again" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs\consumables</wordpressPath>
@@ -992,14 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1204">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="44" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/_my-account.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
@@ -1008,26 +983,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
+    <entry file="file://$PROJECT_DIR$/woocommerce/single-product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1036">
-          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+        <state relative-caret-position="266">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
           <folding>
-            <marker date="1460545426610" expanded="true" signature="7780:7996" placeholder="..." />
-            <marker date="1460545426610" expanded="true" signature="7795:7988" placeholder="{...}" />
-            <marker date="1460545426610" expanded="true" signature="8313:8322" placeholder="..." />
-            <marker date="1460545426610" expanded="true" signature="8358:8548" placeholder="..." />
+            <element signature="e#7#699#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/single-product.php">
+    <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        <state relative-caret-position="364">
+          <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
           <folding>
-            <element signature="e#7#699#0#PHP" expanded="true" />
+            <marker date="1460555354393" expanded="true" signature="7780:7996" placeholder="..." />
+            <marker date="1460555354393" expanded="true" signature="7795:7988" placeholder="{...}" />
+            <marker date="1460555354393" expanded="true" signature="8313:8322" placeholder="..." />
+            <marker date="1460555354393" expanded="true" signature="8358:8548" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
