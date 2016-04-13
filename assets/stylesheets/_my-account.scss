@@ -1,22 +1,17 @@
-.woocommerce-account, .woocommerce-edit-account, .woocommerce-edit-address
-{
+.woocommerce-account, .woocommerce-edit-account, .woocommerce-edit-address {
 
-	.myaccount_user
-	{
-		.intro
-		{
+	.myaccount_user {
+		.intro {
 			display: block;
 			font-size: 1.1em;
 		}
 	}
 
-	h2,h3
-	{
+	h2, h3 {
 		font-size: 1.8em;
 	}
 
-	.page-title
-	{
+	.page-title {
 		padding-bottom: 40px;
 	}
 
@@ -25,31 +20,27 @@
 // // //
 // styles for edit address
 // // //
-label
-{
+label {
 	display: block;
-	width:100%;
+	width: 100%;
 	font-weight: normal;
 }
 
-.form-grid
-{
-	column-count:3;
+.form-grid {
+	column-count: 3;
 	column-width: 33.0%;
 
-	@media (max-width: $screen-sm){
-		column-count:1;
-		column-width:100%;
+	@media (max-width: $screen-sm) {
+		column-count: 1;
+		column-width: 100%;
 	}
 
-	p
-	{
-		column-break-inside : avoid;
+	p {
+		column-break-inside: avoid;
 		break-inside: avoid-column;
 	}
 
 }
-
 
 // // //
 // styles for "view order"
@@ -59,10 +50,13 @@ label
 
 // }
 
-
 .woocommerce-edit-address {
 
 	.sys-button {
 		margin-top: 20px;
 	}
+}
+
+.woocommerce-password-strength {
+	margin-top: 20px;
 }
