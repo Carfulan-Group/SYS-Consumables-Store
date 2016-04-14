@@ -78,12 +78,12 @@
 			<li class="active" onclick="catSelect(this)" data-tab="all-cats">All</li>
 			<li onclick="catSelect(this)" data-tab="model-cat">Model Materials</li>
 			<li onclick="catSelect(this)" data-tab="support-cat">Support</li>
-			<li onclick="catSelect(this)" data-tab="hardware-cat">Hardware</li>
+			<li onclick="catSelect(this)" data-tab="parts-accessories-cat">Parts &amp; Accessories</li>
 		</ul>
 	</div>
 	<div class="home-search">
 		<select class="home-search-select" onchange="filterByMachine(this)">
-			<option selected="selected" value="0">Filter By Machine</option>
+			<option selected="selected" value="0">All Machines</option>
 			<?php
 				foreach ( $my_products as $product )
 				{
@@ -102,9 +102,9 @@
 			<h2>Support Materials</h2>
 			<?php echo do_shortcode ( '[product_category category="support material" per_page="-1"]' ); ?>
 		</div>
-		<div class="home-cat all-cats hardware-cat">
-			<h2>Printing Hardware</h2>
-			<?php echo do_shortcode ( '[product_category category="hardware" per_page="-1"]' ); ?>
+		<div class="home-cat all-cats parts-accessories-cat">
+			<h2>Parts &amp; Accessories</h2>
+			<?php echo do_shortcode ( '[product_category category="parts-accessories" per_page="-1"]' ); ?>
 		</div>
 	</div>
 	<?php

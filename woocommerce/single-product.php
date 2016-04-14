@@ -138,7 +138,7 @@
 					 * */
 
 					$product_categories = array (
-						'hardware',
+						'parts-accessories',
 						'model-material',
 						'support-material'
 					);
@@ -158,7 +158,15 @@
 						{
 							?>
 							<div class="products">
-								<h4 class="col-xs-12"><?php echo ucwords ( str_replace ( '-', ' ', $category ) ); ?></h4>
+								<h4 class="col-xs-12"><?php
+										if ( $category == "parts-accessories" )
+										{
+											echo "Parts &amp; Accessories";
+										}
+										else
+										{
+											echo ucwords ( str_replace ( '-', ' ', $category ) );
+										} ?></h4>
 								<?php
 									while ( $loop->have_posts () )
 									{
