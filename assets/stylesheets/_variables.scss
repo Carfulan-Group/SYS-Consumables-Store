@@ -1,41 +1,45 @@
-$light-grey			:#cccccc;
-$very-light-grey	:#f4f4f4;
-$dark-grey			:#3a3a3a;
-$light-blue			:#0097d8;
+$light-grey: #cccccc;
+$very-light-grey: #f4f4f4;
+$dark-grey: #3a3a3a;
+$light-blue: #0097d8;
 
 %tran {
-	transition:0.3s ease;
+	transition: 0.3s ease;
+}
+
+%tran--med {
+	transition: 0.6s ease;
 }
 
 .vertical-padding {
-	padding-top:20px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
 .vertical-padding-large {
-	padding-bottom:40px;
-	padding-top:40px;
+	padding-bottom: 40px;
+	padding-top: 40px;
 }
 
 .vertical-padding-extra-large {
-	padding-bottom:80px;
-	padding-top:80px;
+	padding-bottom: 80px;
+	padding-top: 80px;
 }
 
 .sys-button {
-	transition:0.5s;
+	transition: 0.5s;
 	position: relative;
 	padding: 10px 15px;
 	display: inline-block;
 	background: $light-blue;
-	color:#fff!important;
+	color: #fff !important;
 	overflow: hidden;
-	border:none;
-		&:hover {
-			color:#fff;
-			opacity: 0.8;
-		}
-		&:visited,&:active,&:focus,&:link {
-			color:#fff;
-		}
+	border: none;
+	&:hover {
+		color: #fff;
+		opacity: 0.8;
+	}
+	&:visited, &:active, &:focus, &:link {
+		color: #fff;
+	}
 }

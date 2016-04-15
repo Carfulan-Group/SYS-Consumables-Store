@@ -2,7 +2,7 @@
 <html <?php language_attributes (); ?>>
 
 <head>
-	<title><?php the_title (); ?> | SYS Systems Consumables Store</title>
+	<title><?php the_title (); ?> | <?php bloginfo ( $name ); ?></title>
 	<meta charset="<?php bloginfo ( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
