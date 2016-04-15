@@ -14,7 +14,7 @@
 				<h6>Quick Links</h6>
 				<?php wp_nav_menu ( array ( 'theme_location' => 'footer-quick-links' ) );
 					if ( is_user_logged_in () ) : ?>
-						<a href="<?php echo wp_logout_url (); ?>">Log Out</a>
+						<a href="<?php echo wp_logout_url ( home_url () ); ?>">Log Out</a>
 						<?php
 					endif;
 				?>
