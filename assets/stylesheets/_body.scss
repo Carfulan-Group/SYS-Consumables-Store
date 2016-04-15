@@ -39,6 +39,10 @@ main {
 	opacity: 0;
 }
 
+label {
+	display: inline-block;
+}
+
 .loading {
 	display: none;
 	position: fixed;
