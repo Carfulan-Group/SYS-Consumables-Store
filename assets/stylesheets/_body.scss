@@ -248,3 +248,15 @@ button, input[type="submit"] {
 	@extend .alert-danger;
 	list-style-type: none;
 }
+
+.page-numbers {
+	list-style-type: none;
+
+	li {
+		display: inline-block;
+
+		a {
+			padding: 20px;
+		}
+	}
+}
