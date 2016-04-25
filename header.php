@@ -34,8 +34,8 @@
 			<section class="container">
 				<div id="lower-header">
 					<a href="<?php echo site_url (); ?>">
-						<img src="<?php echo get_template_directory_uri (); ?>/assets/images/sys-logo.png"
-							id="header-logo" class="pull-left" title="SYS Systems 3D Printing" alt="SYS Systems Logo">
+						<img src="<?php echo get_template_directory_uri (); ?>/assets/images/sys-logo-left-half.png" id="header-logo" class="pull-left loading" title="SYS Systems 3D Printing" alt="SYS Systems Logo Left Half">
+						<img src="<?php echo get_template_directory_uri (); ?>/assets/images/sys-logo-right-half.png" id="header-logo" class="pull-left" title="SYS Systems 3D Printing" alt="SYS Systems Logo Right Half">
 					</a>
 					<nav id="main-menu">
 						<?php
@@ -61,7 +61,5 @@
 			</section>
 		</header>
 		<div id="shade"></div>
-		<div class="loading">
-			<img data-layzr="<?php echo get_template_directory_uri (); ?>/assets/images/sys-logo-blob.png" height="57" width="55" alt="SYS Logo Circle Only">
-		</div>
-		<main class="clear-head white container transit">
+
+		<main class="clear-head white container transit fade">

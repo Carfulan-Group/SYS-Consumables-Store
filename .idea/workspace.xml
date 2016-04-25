@@ -4,8 +4,15 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6dbe16d-b0b9-4395-b67b-f37e8f898d3b" name="Default" comment="">
+    <list default="true" id="c6dbe16d-b0b9-4395-b67b-f37e8f898d3b" name="Default" comment="Updated to new style loading animation ( used by jQuery SmoothState )">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascripts/_initiate-headroom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/_smoothstate-initiate.js" afterPath="$PROJECT_DIR$/assets/javascripts/_smoothstate-initiate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/build.js" afterPath="$PROJECT_DIR$/assets/javascripts/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/_body.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/_body.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/_header.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/_header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/assets/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
     </list>
     <ignored path="sys-consumables-store.iws" />
@@ -31,18 +38,18 @@
       <file leaf-file-name="_body.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="241" column="19" selection-start-line="241" selection-start-column="19" selection-end-line="241" selection-end-column="19" />
+            <state relative-caret-position="281">
+              <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_front-page.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/_front-page.scss">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="28">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -51,50 +58,58 @@
       <file leaf-file-name="_product_name_cleanser.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/javascripts/_product_name_cleanser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="4" />
+            <state relative-caret-position="647">
+              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_single-product.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/_single-product.scss">
+      <file leaf-file-name="_masonry.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/javascripts/_masonry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2464">
-              <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+            <state relative-caret-position="28">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/_variables.scss">
+      <file leaf-file-name="_home_search_by_machines.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/javascripts/_home_search_by_machines.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="392">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single-product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/woocommerce/single-product.php">
+      <file leaf-file-name="_menu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/javascripts/_menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="164" column="41" selection-start-line="164" selection-start-column="41" selection-end-line="164" selection-end-column="41" />
-              <folding>
-                <element signature="e#7#699#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="392">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+            <state relative-caret-position="439">
+              <caret line="37" column="119" selection-start-line="37" selection-start-column="119" selection-end-line="37" selection-end-column="119" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -103,31 +118,19 @@
       <file leaf-file-name="_smoothstate-initiate.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/javascripts/_smoothstate-initiate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="280">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.php">
+      <file leaf-file-name="_initiate-headroom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/javascripts/_initiate-headroom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+            <state relative-caret-position="364">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smoothstate.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/smoothstate/smoothstate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="924" column="0" selection-start-line="924" selection-start-column="0" selection-end-line="924" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -145,20 +148,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/javascripts/_masonry.js" />
-        <option value="$PROJECT_DIR$/woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php" />
         <option value="$PROJECT_DIR$/woocommerce/single-product/add-to-cart/variable.php" />
         <option value="$PROJECT_DIR$/woocommerce/single-product/add-to-cart/simple.php" />
         <option value="$PROJECT_DIR$/woocommerce/single-product/add-to-cart/variation.php" />
         <option value="$PROJECT_DIR$/woocommerce/single-product/meta.php" />
         <option value="$PROJECT_DIR$/vendor/smoothstate/smoothstate.min.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/assets/javascripts/_home-search.js" />
         <option value="$PROJECT_DIR$/assets/javascripts/_home_search_by_machines.js" />
         <option value="$PROJECT_DIR$/assets/stylesheets/_smoothstate-animations.scss" />
@@ -174,9 +171,12 @@
         <option value="$PROJECT_DIR$/vendor/smoothstate/smoothstate.js" />
         <option value="$PROJECT_DIR$/assets/stylesheets/_variables.scss" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/assets/javascripts/_smoothstate-initiate.js" />
         <option value="$PROJECT_DIR$/assets/stylesheets/_body.scss" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/assets/javascripts/_initiate-headroom.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/assets/javascripts/_smoothstate-initiate.js" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/_header.scss" />
       </list>
     </option>
   </component>
@@ -288,6 +288,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -681,16 +683,44 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumables" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="header&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/header.php&#10;footer&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/footer.php&#10;var&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_variables.scss&#10;bod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;gulp&#9;ACTION&#9;ActivateGulpToolWindow&#10;single&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;gul&#9;ACTION&#9;ActivateGulpToolWindow&#10;gu&#9;ACTION&#9;ActivateGulpToolWindow&#10;fron&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;variables&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_variables.scss&#10;vari&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product/add-to-cart/variation.php&#10;bo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;single pro&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;func&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;fr&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;funct&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;si&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;body&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;sing&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;front&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;function&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;single-&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;searc&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;header.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/header.php&#10;single-product.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;home&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;commit&#9;ACTION&#9;ChangesView.Commit&#10;functions.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php" />
+    <property name="SearchEverywhereHistoryKey" value="header&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_header.scss&#10;gu&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/gulpfile.js&#10;header.scss&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_header.scss&#10;body&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;bod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;gulp&#9;ACTION&#9;ActivateGulpToolWindow&#10;footer&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/footer.php&#10;var&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_variables.scss&#10;single&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;gul&#9;ACTION&#9;ActivateGulpToolWindow&#10;fron&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;variables&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_variables.scss&#10;vari&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product/add-to-cart/variation.php&#10;bo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;single pro&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;func&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;fr&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;funct&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;si&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;sing&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;front&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;function&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;single-&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;searc&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;header.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/header.php&#10;single-product.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;home&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;commit&#9;ACTION&#9;ChangesView.Commit&#10;functions.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../sys" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -757,7 +787,9 @@
       <workItem from="1460551068680" duration="8303000" />
       <workItem from="1460617666916" duration="1259000" />
       <workItem from="1460642563249" duration="1138000" />
-      <workItem from="1460703952026" duration="9707000" />
+      <workItem from="1460703952026" duration="10935000" />
+      <workItem from="1460962868179" duration="1736000" />
+      <workItem from="1461580002552" duration="1037000" />
     </task>
     <task id="LOCAL-00001" summary="Made table heading normal case again">
       <created>1460555474817</created>
@@ -829,11 +861,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460719093792</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Removed Livereload Script">
+      <created>1460719619725</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1460719619725</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75620000" />
+    <option name="totallyTimeSpent" value="79621000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -846,26 +885,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20415778" sideWeight="0.3117284" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20415778" sideWeight="0.6882716" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13128205" sideWeight="0.49737877" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.50262123" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18434604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13285273" sideWeight="0.49475753" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12307692" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19989339" sideWeight="0.3007209" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19989339" sideWeight="0.69927907" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18415637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13271604" sideWeight="0.49475753" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.4789189" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12307692" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14217253" sideWeight="0.5210811" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10894142" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -891,7 +930,8 @@
     <MESSAGE value="Fixed issue with users being asked if they want to log out again when logging in after logging out." />
     <MESSAGE value="Think we're all done! just made some minor changed to the smoothstate initiate script and that's all! ( still waiting for the Firefox back buttons to be fixed though )" />
     <MESSAGE value="Styled category page next/previous buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Styled category page next/previous buttons" />
+    <MESSAGE value="Removed Livereload Script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Livereload Script" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs\consumables</wordpressPath>
@@ -901,62 +941,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/woocommerce/single-product/meta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/_menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/_masonry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../wp-includes/theme-compat/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/_home-search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/_home_search_by_machines.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/_smoothstate-animations.scss" />
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/main.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -983,7 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,12 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2184">
           <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
-          <folding>
-            <marker date="1460555354393" expanded="true" signature="7780:7996" placeholder="..." />
-            <marker date="1460555354393" expanded="true" signature="7795:7988" placeholder="{...}" />
-            <marker date="1460555354393" expanded="true" signature="8313:8322" placeholder="..." />
-            <marker date="1460555354393" expanded="true" signature="8358:8548" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1004,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,7 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2632">
           <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,19 +1001,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/woocommerce/single-product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="4200">
           <caret line="164" column="41" selection-start-line="164" selection-start-column="41" selection-end-line="164" selection-end-column="41" />
-          <folding>
-            <element signature="e#7#699#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/_product_name_cleanser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,7 +1016,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/_front-page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
+        <state relative-caret-position="1680">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
@@ -1060,7 +1024,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
+        <state relative-caret-position="392">
           <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
           <folding />
         </state>
@@ -1068,7 +1032,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/smoothstate/smoothstate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
+        <state relative-caret-position="25676">
           <caret line="924" column="0" selection-start-line="924" selection-start-column="0" selection-end-line="924" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -1076,26 +1040,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/_smoothstate-initiate.js">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_TBAT-Sam-Mckay.zip/index.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_contact-form-7.4.4.1.zip/contact-form-7/wp-contact-form-7.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="140">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="241" column="19" selection-start-line="241" selection-start-column="19" selection-end-line="241" selection-end-column="19" />
+        <state relative-caret-position="281">
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        <state relative-caret-position="439">
+          <caret line="37" column="119" selection-start-line="37" selection-start-column="119" selection-end-line="37" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/_product_name_cleanser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/_masonry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/_home_search_by_machines.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/_menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/_initiate-headroom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/_smoothstate-initiate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding />
         </state>
       </provider>

@@ -1,10 +1,24 @@
+// makes sure js is called on DOM ready
+function pageLoad ()
+{
+	initiateHeadroom (); // does not need jQuery
+
+	// set up for lazy loading images
+	new Layzr ( {
+		threshold : 70
+	} );
+}
+
 jQuery ( document ).ready ( function ( $ )
 {
-	$ ( 'main' ).css ( 'opacity', '1' );
-} );
+	//call pageLoad when the DOM is ready
+	pageLoad ( $ );
+	// makes sure the opacity is good n' proper
+	$ ( '.fade' ).addClass ( 'fade--in' );
 
-jQuery ( document ).ready ( function ()
-{
+	// // // // // // // // // // // // // // //
+
+	// start smoothstate
 	$ ( '#smoothstate' ).smoothState ( {
 		// prefetches content before the user releases their finger (touchscreen)
 		prefetch : true,
@@ -15,8 +29,9 @@ jQuery ( document ).ready ( function ()
 		onStart : {
 			render : function ()
 			{
-				$ ( 'main' ).css ( 'opacity', '0' );
-				$ ( '.loading' ).show ();
+				$ ( '.fade' ).removeClass ( 'fade--in' );
+				$ ( '.loading' ).addClass ( 'spin' );
+				$ ( 'body' ).animate ( { scrollTop : 0 }, '1000' );
 			}
 		},
 
@@ -24,10 +39,10 @@ jQuery ( document ).ready ( function ()
 
 		onAfter : function ()
 		{
-			$ ( document ).ready ();
-			$ ( window ).trigger ( 'load' );
-			$ ( '.loading' ).hide ();
-			$ ( 'main' ).css ( 'opacity', '1' );
+			pageLoad ();
+			//$ ( window ).trigger ( 'load' );
+			$ ( '.loading' ).removeClass ( 'spin' );
+			$ ( '.fade' ).addClass ( 'fade--in' );
 		}
 
 	} ).data ( 'smoothState' )
