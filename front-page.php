@@ -116,17 +116,55 @@
 		else
 		{
 		echo "<h1 class='page-title'>Hello " . $current_user->user_firstname . "</h1>";
-		wc_print_notices ();
 	?>
 	<section id="home-products" class="vertical-padding-large">
-		<p>Our team is busy tailoring your account to your needs and equipment. You will be alerted when we are done,
-			thank you for your patience.</p>
+		<?php wc_print_notices (); ?>
 
-		<p>While you're waiting, why not finish setting up your account <a
-				href="<?php echo site_url (); ?>/my-account/edit-address/billing/">here.</a></p>
-		<?php
-			}
-		?>
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<p>Thanks for registering with SYS Systems. This is where consumables compatible with your machine/s will be displayed once our staff tailor your account.</p>
+				<p>While you're waiting, why not finish setting up your account
+					<a href="<?php echo site_url (); ?>/my-account/edit-address/billing/">here.</a>
+				</p>
+			</div>
+			<div class="col-md-4 col-md-push-2 col-sm-6">
+				<div class="alert alert-info">
+					<h6>Need Help?</h6>
+					<p>If you require our assistance, please get in touch using the details below:
+					</p>
+					<br>
+					<p>
+						<a href="mailto:<?php echo do_shortcode ( '[easy_options id="email"]' ); ?>">
+							<i class="icon-mail"></i>&nbsp;&nbsp;&nbsp;&nbsp;<?php echo do_shortcode ( '[easy_options id="email"]' ); ?>
+						</a>
+					</p>
+					<p>
+						<a href="tel:<?php echo do_shortcode ( '[easy_options id="phone"]' ); ?>">
+							<i class="icon-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;<?php echo do_shortcode ( '[easy_options id="phone"]' ); ?>
+						</a>
+					</p>
+				</div>
+				<h6>Opening Hours:</h6>
+				<table class="table-hover">
+					<tr>
+						<td>Monday - Thursday</td>
+						<td>8:00 - 4:30</td>
+					</tr>
+					<tr>
+						<td>Friday</td>
+						<td>8:00 - 4:00</td>
+					</tr>
+					<tr>
+						<td>Saturday - Sunday</td>
+						<td>Closed</td>
+					</tr>
+				</table>
+			</div>
+
+
+			<?php
+				}
+			?>
 	</section>
 	<?php
 		}

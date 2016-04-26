@@ -14,6 +14,7 @@ jQuery ( document ).ready ( function ( $ )
 	//call pageLoad when the DOM is ready
 	pageLoad ( $ );
 	// makes sure the opacity is good n' proper
+	
 	$ ( '.fade' ).addClass ( 'fade--in' );
 
 	// // // // // // // // // // // // // // //
