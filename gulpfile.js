@@ -13,7 +13,6 @@ gulp.task ( 'scripts', function ()
 	return gulp.src ( [
 			'vendor/layzr/_layzr.js',
 			'vendor/smoothstate/smoothstate.js',
-			'vendor/headroom/headroom.js',
 			'assets/javascripts/_*.js'
 		]
 			   )

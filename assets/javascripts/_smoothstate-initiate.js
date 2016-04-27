@@ -1,8 +1,6 @@
 // makes sure js is called on DOM ready
 function pageLoad ()
 {
-	initiateHeadroom (); // does not need jQuery
-
 	// set up for lazy loading images
 	new Layzr ( {
 		threshold : 70
@@ -14,7 +12,7 @@ jQuery ( document ).ready ( function ( $ )
 	//call pageLoad when the DOM is ready
 	pageLoad ( $ );
 	// makes sure the opacity is good n' proper
-	
+
 	$ ( '.fade' ).addClass ( 'fade--in' );
 
 	// // // // // // // // // // // // // // //
