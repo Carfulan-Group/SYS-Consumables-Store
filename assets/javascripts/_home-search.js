@@ -39,6 +39,4 @@ var search = {
 
 		console.log ( search.input );
 	}
-}
-
-// TODO: Make correct titles show
+};
