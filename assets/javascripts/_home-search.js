@@ -1,38 +1,44 @@
-function itemSearch ( el )
-{
+$ = jQuery;
 
-	var search = {
-		input : el.value.toLowerCase (), product : document.querySelectorAll ( '.product' ), title : document.querySelectorAll ( '.home-cat-container h2' )
-	};
+var search = {
+	// value of search box
+	input : $ ( ".home__search__input" ).val (),
+	// all products to search
+	products : $ ( '.product' ),
+	// this is where the products title gets stored
+	productName : "",
+	// selector used to find the category titles (for showing and hiding)
+	catTitle : '.home__cat__title',
 
-	// show all products and search.titles if search is empty
-	if ( ! search.input )
+	// hides/shows products and titles depending on search.input
+	hideShow : function ()
 	{
-		Array.prototype.forEach.call ( search.product, function ( el )
+		// hides all category titles, these will be shown again if necessary later
+		$ ( search.catTitle ).each ( function ()
 		{
-			el.style.display = "block";
+			$ ( this ).hide ();
 		} );
 
-		// end if input is empty
-	}
-	else
-	{
-		Array.prototype.forEach.call ( search.product, function ( el )
-		{
-			var h3Content = el.querySelector ( "h3" ).innerHTML.toLowerCase ();
+		search.input = $ ( ".home__search__input" ).val ().toLowerCase ();
 
-			if ( h3Content.indexOf ( search.input ) )
+		search.products.each ( function ()
+		{
+			search.productName = $ ( this ).find ( '.product__title' ).text ().toLowerCase ();
+
+			if ( search.productName.indexOf ( search.input ) )
 			{
-				el.style.display = "none";
+				$ ( this ).hide ();
 			}
 			else
 			{
-				el.style.display = "block";
+				$ ( this ).show ();
+				// finds the parent .products and goes to the search.catTitle before it
+				$ ( this ).parent ().prev ().show ();
 			}
 		} );
 
-		// end if input val > 0
+		console.log ( search.input );
 	}
-
-	// end itemSearch()
 }
+
+// TODO: Make correct titles show

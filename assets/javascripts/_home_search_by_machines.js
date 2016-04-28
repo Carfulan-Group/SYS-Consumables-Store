@@ -14,7 +14,7 @@ function filterByMachine ( select )
 		$ ( '.product' ).hide ();
 		$ ( '.product' ).each ( function ()
 		{
-			classes = $ ( this ).attr ( 'class' );
+			classes = $ ( this ).attr ( 'data-machines' );
 			if ( classes.indexOf ( value ) > - 1 )
 			{
 				$ ( this ).show ();

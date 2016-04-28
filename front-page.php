@@ -91,20 +91,26 @@
 				}
 			?>
 		</select>
-		<input type="text" placeholder="Search" onkeyup="itemSearch(this)">
+		<input type="text" class="home__search__input" placeholder="Search" onkeyup="search.hideShow(this)">
 	</div>
 	<div class="home-cat-container">
 		<div class="home-cat all-cats model-cat">
-			<h2>Model Materials</h2>
-			<?php echo do_shortcode ( '[product_category category="model material" per_page="-1"]' ); ?>
+			<h2 class="home__cat__title">Model Materials</h2>
+			<?php
+				sysProductLoop ( 'model-material', -1 );
+			?>
 		</div>
 		<div class="home-cat all-cats support-cat">
-			<h2>Support Materials</h2>
-			<?php echo do_shortcode ( '[product_category category="support material" per_page="-1"]' ); ?>
+			<h2 class="home__cat__title">Support Materials</h2>
+			<?php
+				sysProductLoop ( 'support-material', -1 );
+			?>
 		</div>
 		<div class="home-cat all-cats parts-accessories-cat">
-			<h2>Parts &amp; Accessories</h2>
-			<?php echo do_shortcode ( '[product_category category="parts-accessories" per_page="-1"]' ); ?>
+			<h2 class="home__cat__title">Parts &amp; Accessories</h2>
+			<?php
+				sysProductLoop ( 'parts-accessories', -1 );
+			?>
 		</div>
 	</div>
 	<?php
