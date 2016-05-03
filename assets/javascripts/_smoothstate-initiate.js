@@ -5,6 +5,8 @@ function pageLoad ()
 	new Layzr ( {
 		threshold : 70
 	} );
+
+	//masonry.go ();
 }
 
 jQuery ( document ).ready ( function ( $ )
