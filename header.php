@@ -22,13 +22,28 @@
 			<section id="upper-header">
 				<div class="container">
 					<div class="pull-left">
-                    <span><a href="mailto:<?php echo do_shortcode ( '[easy_options id="email"]' ); ?>"><i
-								class="icon-mail"></i><?php echo do_shortcode ( '[easy_options id="email"]' ); ?>
-						</a></span>
-					</div>
-					<div class="pull-right">
+                    <span>
+						<a href="mailto:<?php echo do_shortcode ( '[easy_options id="email"]' ); ?>">
+							<i class="icon-mail"></i><?php echo do_shortcode ( '[easy_options id="email"]' ); ?>
+						</a>
+					</span>
+
 						<span><i class="icon-phone"></i><?php echo do_shortcode ( '[easy_options id="phone"]' ); ?></span>
 					</div>
+					<?php
+						if ( is_user_logged_in () )
+						{
+							?>
+							<div class="pull-right">
+								<?php global $woocommerce; ?>
+								<a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url (); ?>" title="<?php _e ( 'View your shopping cart', 'woothemes' ); ?>">
+									<span>Cart: </span>
+									<?php echo $woocommerce->cart->get_cart_total () . " (" . $woocommerce->cart->cart_contents_count . ")"; ?>
+								</a>
+							</div>
+							<?php
+						}
+					?>
 				</div>
 			</section>
 			<section class="container">

@@ -295,6 +295,8 @@
 }
 
 #upper-header {
+	@extend .hidden-xs;
+
 	background: $dark-grey;
 	color: #fff;
 	padding: 2px 0;
@@ -318,10 +320,12 @@
 	.container {
 		background: $dark-grey;
 	}
-	.pull-left, .pull-right {
-		span {
-			margin: 0 !important;
-		}
+	.pull-left span {
+		margin: 0 !important;
+		padding: 0 10px 0 0;
+	}
+	.pull-right {
+		@extend .hidden-xs;
 	}
 }
 
