@@ -6,7 +6,7 @@ function pageLoad ()
 		threshold : 70
 	} );
 
-	//masonry.go ();
+	doMasonry ();
 }
 
 jQuery ( document ).ready ( function ( $ )
@@ -24,7 +24,7 @@ jQuery ( document ).ready ( function ( $ )
 		// prefetches content before the user releases their finger (touchscreen)
 		prefetch : true,
 		allowFormCaching : false,
-		forms : '',
+		forms : '.this-is-a-class-that-is-not-used',
 
 		// runs once the ajax request starts
 		onStart : {

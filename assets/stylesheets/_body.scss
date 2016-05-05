@@ -251,3 +251,32 @@ button, input[type="submit"] {
 		}
 	}
 }
+
+//.masonry {
+//	columns: 1;
+//	column-gap: 30px;
+//
+//	/*
+//	* On a side note, this might have been the first ever piece of mobile first r-d code I have written
+//	*
+//	* - Sam Mckay
+//	*/
+//	@media screen and (min-width: $screen-sm) {
+//		columns: 2;
+//	}
+//
+//	@media screen and (min-width: $screen-md) {
+//		columns: 3;
+//	}
+//
+//	@media screen and (min-width: $screen-lg) {
+//		columns: 4;
+//	}
+//
+//	.masonry__item {
+//		display: inline-block;
+//		width: 100%;
+//		margin: 0 0 30px 0;
+//		break-inside: avoid-column;
+//	}
+//}

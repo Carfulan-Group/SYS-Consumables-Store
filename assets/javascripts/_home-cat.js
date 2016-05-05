@@ -5,7 +5,6 @@ function catSelect ( el )
 	document.querySelector ( '.home-cat-selector .active' ).classList.remove ( 'active' );
 	el.classList.add ( 'active' );
 
-
 	// identify button & tab
 	var toShow = (
 		el.getAttribute ( 'data-tab' )
@@ -29,7 +28,7 @@ function catSelect ( el )
 jQuery ( document ).ready ( function ( $ )
 {
 	var productCounter = 0;
-	$ ( '.product' ).each ( function ()
+	$ ( '.loop__product' ).each ( function ()
 	{
 		productCounter ++;
 	} );

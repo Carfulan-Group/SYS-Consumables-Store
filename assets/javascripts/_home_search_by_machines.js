@@ -7,12 +7,12 @@ function filterByMachine ( select )
 	value = $ ( select ).val ().toLowerCase ().replace ( / /g, "-" );
 	if ( value == 0 )
 	{
-		$ ( '.product' ).show ();
+		$ ( '.loop__product' ).show ();
 	}
 	else
 	{
-		$ ( '.product' ).hide ();
-		$ ( '.product' ).each ( function ()
+		$ ( '.loop__product' ).hide ();
+		$ ( '.loop__product' ).each ( function ()
 		{
 			classes = $ ( this ).attr ( 'data-machines' );
 			if ( classes.indexOf ( value ) > - 1 )
@@ -21,4 +21,7 @@ function filterByMachine ( select )
 			}
 		} );
 	}
+
+	grid.masonry ( 'layout' );
+
 }

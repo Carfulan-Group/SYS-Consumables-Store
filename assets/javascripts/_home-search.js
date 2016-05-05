@@ -4,11 +4,16 @@ var search = {
 	// value of search box
 	input : $ ( ".home__search__input" ).val (),
 	// all products to search
-	products : $ ( '.product' ),
+	products : $ ( '.loop__product' ),
 	// this is where the products title gets stored
 	productName : "",
 	// selector used to find the category titles (for showing and hiding)
 	catTitle : '.home__cat__title',
+	// the masonry grid
+	grid : '.masonry__grid',
+
+	toStamp : [],
+	toUnStamp : [],
 
 	// hides/shows products and titles depending on search.input
 	hideShow : function ()
@@ -23,7 +28,7 @@ var search = {
 
 		search.products.each ( function ()
 		{
-			search.productName = $ ( this ).find ( '.product__title' ).text ().toLowerCase ();
+			search.productName = $ ( this ).find ( '.loop__product__title' ).text ().toLowerCase ();
 
 			if ( search.productName.indexOf ( search.input ) )
 			{
@@ -32,11 +37,13 @@ var search = {
 			else
 			{
 				$ ( this ).show ();
-				// finds the parent .products and goes to the search.catTitle before it
+				// shows the title closest to this elements parent
 				$ ( this ).parent ().prev ().show ();
 			}
 		} );
 
-		console.log ( search.input );
+		$ ( '.home-search-select' ).val ( "All Machinesa" );
+		// fixes the masonry grid issues
+		grid.masonry ( 'layout' );
 	}
 };

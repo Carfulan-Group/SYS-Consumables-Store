@@ -5,183 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6dbe16d-b0b9-4395-b67b-f37e8f898d3b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascripts/_masonry-initiate.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sys-product-loop.php" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/_masonry.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/images/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap-sprockets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap/affix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/_bootstrap-compass.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/_bootstrap-mincer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/_bootstrap-sprockets.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/_bootstrap.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_alerts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_badges.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_breadcrumbs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_button-groups.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_carousel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_close.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_code.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_component-animations.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_dropdowns.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_glyphicons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_input-groups.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_jumbotron.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_labels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_list-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_media.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_modals.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_navbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_navs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_normalize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_pager.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_panels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_popovers.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_print.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_progress-bars.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_responsive-embed.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_responsive-utilities.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_scaffolding.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_thumbnails.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_tooltip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_type.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_utilities.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/_wells.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_alerts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_background-variant.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_border-radius.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_center-block.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_clearfix.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_gradients.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_hide-text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_image.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_labels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_list-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_nav-divider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_nav-vertical-align.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_opacity.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_panels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_progress-bar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_reset-filter.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_reset-text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_resize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_size.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_tab-focus.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_table-row.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_text-overflow.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/bootstrap-sass.gemspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/lib/bootstrap-sass.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/lib/bootstrap-sass/engine.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/lib/bootstrap-sass/version.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/sache.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/tasks/bower.rake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/tasks/converter.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/tasks/converter/char_string_scanner.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/tasks/converter/fonts_conversion.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/tasks/converter/js_conversion.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/tasks/converter/less_conversion.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/tasks/converter/logger.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/tasks/converter/network.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/templates/project/_bootstrap-variables.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/templates/project/manifest.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/templates/project/styles.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/compass_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/compilation_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_node_mincer/apple-touch-icon-144-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_node_mincer/application.css.ejs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_node_mincer/manifest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/README.rdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/app/assets/images/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/app/assets/javascripts/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/app/assets/stylesheets/application.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/app/controllers/application_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/app/controllers/pages_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/app/helpers/application_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/app/views/layouts/application.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/app/views/pages/root.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config.ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/application.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/boot.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/environment.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/environments/development.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/environments/production.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/environments/test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/initializers/backtrace_silencers.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/initializers/filter_parameter_logging.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/initializers/inflections.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/initializers/mime_types.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/initializers/secret_token.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/initializers/session_store.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/initializers/wrap_parameters.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/locales/en.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/locales/es.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/config/routes.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_sass_only/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_sass_only/compile.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_sass_only/import_all.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/gemfiles/sass_3_2.gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/gemfiles/sass_3_3.gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/gemfiles/sass_3_4.gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/gemfiles/sass_head.gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/node_mincer_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/node_sass_compile_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/pages_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/sass_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/sprockets_rails_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/support/dummy_rails_integration.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/support/reporting.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/test_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/test_helper_rails.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/smoothstate/smoothstate.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-3.3.5/test/dummy_rails/log/.keep" afterPath="$PROJECT_DIR$/.bowerrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sys-consumables-store.iml" afterPath="$PROJECT_DIR$/.idea/sys-consumables-store.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/_home-cat.js" afterPath="$PROJECT_DIR$/assets/javascripts/_home-cat.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/_home-search.js" afterPath="$PROJECT_DIR$/assets/javascripts/_home-search.js" />
@@ -193,12 +19,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/_single-product.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/_single-product.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/assets/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/main.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/cart/proceed-to-checkout-button.php" afterPath="$PROJECT_DIR$/woocommerce/cart/proceed-to-checkout-button.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/emails/customer-new-account.php" afterPath="$PROJECT_DIR$/woocommerce/emails/customer-new-account.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/single-product.php" afterPath="$PROJECT_DIR$/woocommerce/single-product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php" afterPath="$PROJECT_DIR$/woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php" />
     </list>
     <ignored path="sys-consumables-store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -240,28 +62,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="email-header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/woocommerce/emails/email-header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-              <folding>
-                <marker date="1453390179847" expanded="true" signature="1494:1507" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customer-note.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/woocommerce/emails/customer-note.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin-cancelled-order.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/woocommerce/emails/plain/admin-cancelled-order.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -292,12 +92,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customer-new-account.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="customer-new-account.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/woocommerce/emails/customer-new-account.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="567">
               <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variation-add-to-cart-button.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-168">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="485" column="5" selection-start-line="485" selection-start-column="5" selection-end-line="485" selection-end-column="5" />
+              <folding>
+                <marker date="1462371918251" expanded="true" signature="8348:8528" placeholder="..." />
+                <marker date="1462371918251" expanded="true" signature="8355:8520" placeholder="{...}" />
+                <marker date="1462371918251" expanded="true" signature="8881:9051" placeholder="..." />
+                <marker date="1462371918251" expanded="true" signature="14153:14191" placeholder="..." />
+                <marker date="1462371918251" expanded="true" signature="14153:14419" placeholder="..." />
+                <marker date="1462371918251" expanded="true" signature="14153:14475" placeholder="..." />
+                <marker date="1462371918251" expanded="true" signature="14153:14485" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -694,7 +522,7 @@
       <workItem from="1462259185090" duration="1715000" />
       <workItem from="1462263135023" duration="11620000" />
       <workItem from="1462345424131" duration="27188000" />
-      <workItem from="1462431940569" duration="2531000" />
+      <workItem from="1462431940569" duration="2878000" />
     </task>
     <task id="LOCAL-00001" summary="Made table heading normal case again">
       <created>1460555474817</created>
@@ -836,11 +664,39 @@
       <option name="project" value="LOCAL" />
       <updated>1462435758769</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Moved vendor dependencies to bower.">
+      <created>1462435808707</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1462435808707</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Tweaked user new account email so that they know we are setting there account up for them prior the them using it">
+      <created>1462435864149</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1462435864149</updated>
+    </task>
+    <task id="LOCAL-00023" summary="FIX: No options selected alert now appears again!">
+      <created>1462435923286</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1462435923286</updated>
+    </task>
+    <task id="LOCAL-00024" summary="NEW: Added continue shopping button to &quot;product added to cart&quot; alert">
+      <created>1462436024049</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1462436024049</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199589000" />
+    <option name="totallyTimeSpent" value="199936000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -853,7 +709,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21055438" sideWeight="0.38271606" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21215352" sideWeight="0.61728394" order="0" side_tool="false" content_ui="combo" />
@@ -863,7 +719,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.50262123" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.65190524" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.65190524" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.4789189" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32304525" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20628998" sideWeight="0.34706488" order="2" side_tool="true" content_ui="tabs" />
@@ -907,7 +763,11 @@
     <MESSAGE value="Home product search now works with title and new loop containing product groups instead of machines" />
     <MESSAGE value="Updated jQuery SmoothState, this fixed pushState issues in Firefox" />
     <MESSAGE value="Added cart totals to upper header, it hides when user is not logged in in." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added cart totals to upper header, it hides when user is not logged in in." />
+    <MESSAGE value="Moved vendor dependencies to bower." />
+    <MESSAGE value="Tweaked user new account email so that they know we are setting there account up for them prior the them using it" />
+    <MESSAGE value="FIX: No options selected alert now appears again!" />
+    <MESSAGE value="NEW: Added continue shopping button to &quot;product added to cart&quot; alert" />
+    <option name="LAST_COMMIT_MESSAGE" value="NEW: Added continue shopping button to &quot;product added to cart&quot; alert" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs\consumables</wordpressPath>
@@ -925,7 +785,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/test.js.map" />
     <entry file="file://$PROJECT_DIR$/assets/javascripts/_continue-shopping.js" />
     <entry file="file://$PROJECT_DIR$/assets/javascripts/_continue-shopping.js.map" />
     <entry file="file://$PROJECT_DIR$/assets/javascripts/_continue-shopping.ts" />
@@ -975,13 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="485" column="5" selection-start-line="485" selection-start-column="5" selection-end-line="485" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1097,6 +949,30 @@
         <state relative-caret-position="567">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="485" column="5" selection-start-line="485" selection-start-column="5" selection-end-line="485" selection-end-column="5" />
+          <folding>
+            <marker date="1462371918251" expanded="true" signature="8348:8528" placeholder="..." />
+            <marker date="1462371918251" expanded="true" signature="8355:8520" placeholder="{...}" />
+            <marker date="1462371918251" expanded="true" signature="8881:9051" placeholder="..." />
+            <marker date="1462371918251" expanded="true" signature="14153:14191" placeholder="..." />
+            <marker date="1462371918251" expanded="true" signature="14153:14419" placeholder="..." />
+            <marker date="1462371918251" expanded="true" signature="14153:14475" placeholder="..." />
+            <marker date="1462371918251" expanded="true" signature="14153:14485" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
