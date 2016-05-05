@@ -12,7 +12,8 @@ gulp.task ( 'scripts', function ()
 {
 	return gulp.src ( [
 			'vendor/layzr/_layzr.js',
-			'vendor/smoothstate/smoothstate.js',
+			'vendor/smoothstate/jquery.smoothState.min.js',
+			'vendor/masonry/dist/masonry.pkgd.min.js',
 			'assets/javascripts/_*.js'
 		]
 			   )
