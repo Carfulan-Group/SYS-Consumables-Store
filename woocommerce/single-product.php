@@ -35,7 +35,7 @@
 
 			<section id="single-product" class="product row vertical-padding">
 
-				<div class="col-xs-12">
+				<div class="col-xs-12 single__product__alert">
 					<?php wc_print_notices (); ?>
 				</div>
 
