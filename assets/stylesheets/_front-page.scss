@@ -1,9 +1,11 @@
 .home-cat-selector {
 	float: left;
 	clear: none;
+
 	@media screen and (max-width: $screen-sm) {
 		width: 100%;
 	}
+
 	ul {
 		list-style-type: none;
 		padding: 0;
@@ -21,6 +23,7 @@
 				margin-top: 10px;
 			}
 		}
+
 		.active {
 			background: $light-grey;
 		}
@@ -39,6 +42,7 @@
 	.home-search-select {
 		display: inline;
 		margin-right: 20px;
+		max-width: 200px;
 
 		@media screen and (max-width: $screen-xs) {
 			width: 100%;

@@ -36,7 +36,7 @@
 	add_action ( 'wp_enqueue_scripts', 'theme_scripts' );
 
 	/*
-	 * Add Theme Support
+	 * Add Theme SupportSupport
 	 * */
 	add_theme_support ( 'post_thumbnails' );
 
@@ -171,14 +171,14 @@
 	}
 
 	/*
-	* Displays a list separated by $split of the groups a user
+	* Displays a list separated by $split of the machines a user
 	* has access to that are also assigned to the current page
 	*/
 	function the_page_group_machines ( $split, $split_last )
 	{
 		global $page_machines;
 		get_page_group_machines ();
-// for each $page_machine in array, display name
+		// for each $page_machine in array, display name
 		$count  = 1;
 		$length = count ( $page_machines );
 		foreach ( $page_machines as $machines )
@@ -197,6 +197,38 @@
 			{
 				echo $split;
 				echo $machines;
+				$count = $count + 1;
+			}
+		}
+	}
+
+	/*
+	* Displays a list separated by $split of the groups a user
+	* has access to that are also assigned to the current page
+	*/
+	function the_page_groups ( $split, $split_last )
+	{
+		global $page_groups;
+		get_page_group_machines ();
+		// for each $page_machine in array, display name
+		$count  = 1;
+		$length = count ( $page_groups );
+		foreach ( $page_groups as $groups )
+		{
+			if ( $count == 1 )
+			{
+				echo $groups;
+				$count = $count + 1;
+			}
+			elseif ( $count == $length )
+			{
+				echo $split_last;
+				echo $groups;
+			}
+			else
+			{
+				echo $split;
+				echo $groups;
 				$count = $count + 1;
 			}
 		}

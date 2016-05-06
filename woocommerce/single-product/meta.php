@@ -27,17 +27,14 @@
 
 ?>
 
-<hr>
 <div class="product_meta">
 
 	<?php do_action ( 'woocommerce_product_meta_start' ); ?>
 
 	<?php if ( wc_product_sku_enabled () && ( $product->get_sku () || $product->is_type ( 'variable' ) ) ) : ?>
-
 		<p><strong><?php _e ( 'Product Code: ', 'woocommerce' ); ?></strong>
 			<span class="sku"><?php echo ( $sku = $product->get_sku () ) ? $sku : __ ( 'N/A', 'woocommerce' ); ?></span>
 		</p>
-
 	<?php endif; ?>
 
 	<?php echo $product->get_categories ( ', ', '<p><strong>' . _n ( 'Category: </strong>', 'Categories: </strong>', $cat_count, 'woocommerce' ), '</p>' ); ?>

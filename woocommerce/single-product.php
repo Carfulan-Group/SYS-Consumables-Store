@@ -61,28 +61,38 @@
 
 				<div class="single__product__overview <?php echo $overview_width; ?> vertical-padding">
 					<h3>Overview</h3>
-					<?php
-						if ( get_the_content () )
-						{
-							the_content ();
-						}
-						else
-						{
-							echo "<p>Sorry, this product has no description.</p>";
-						}
+					<div class="row">
+						<div class="col-md-7">
+							<!-- product description -->
+							<p><strong>Description:</strong></p>
+							<?php
+								if ( get_the_content () )
+								{
+									the_content ();
+								}
+								else
+								{
+									echo "<p>Sorry, this product has no description.</p>";
+								}
+							?>
+						</div>
 
-					?>
-					<?php
-						woocommerce_template_single_meta ();
-					?>
-					<p><strong>Compatible with your:</strong></p>
-					<ul class="single__product__compatible__list">
-						<?php
-							echo "<li>";
-							the_page_group_machines ( "</li><li>", "</li><li>" );
-							echo "</li>";
-						?>
-					</ul>
+						<!-- product meta -->
+						<div class="col-md-5">
+							<?php
+								woocommerce_template_single_meta ();
+							?>
+							<!-- product compatibility -->
+							<p><strong>Compatible with your:</strong></p>
+							<ul class="single__product__compatible__list">
+								<?php
+									echo "<li>";
+									the_page_groups ( "</li><li>", "</li><li>" );
+									echo "</li>";
+								?>
+							</ul>
+						</div>
+					</div>
 				</div>
 
 				<div class="single__product__buy col-sm-3 vertical-padding">
@@ -90,112 +100,6 @@
 					<?php woocommerce_template_single_add_to_cart (); ?>
 				</div>
 
-			</section>
-
-			<section id="single-after-product">
-				<h3 class="related-products-heading">Also compatible with your <?php
-
-						/*
-						 * The function get_available_machines_options (); has already been run above with
-						 * the_available_machine_options(); This is why the array $page_machines is happy to work!
-						 * */
-
-						$count = 1;
-						$all   = count ( $page_machines );
-						if ( $all < 4 )
-						{
-							foreach ( $page_machines as $product )
-							{
-								if ( $count == 1 )
-								{
-									echo $product;
-									$count++;
-								}
-								elseif ( $count == $all )
-								{
-									echo " and " . $product;
-									$count++;
-								}
-								else
-								{
-									echo ", " . $product;
-									$count++;
-								}
-							}
-						}
-						else
-						{
-							echo "machines";
-						}
-					?>:</h3>
-				<?php
-
-					$machines_tax = "";
-					$count        = 0;
-
-					foreach ( $page_machines as $tax )
-					{
-
-						if ( $count > 0 )
-						{
-							$machines_tax = strtolower ( $machines_tax . ',' . $tax );
-						}
-						else
-						{
-							$machines_tax = strtolower ( $machines_tax . $tax );
-							$count++;
-						}
-					}
-
-					/*
-					 * Below is where we display our related products, only products with the
-					 * same taxonomy-machines as the current product and current category will be shown.
-					 * */
-
-					$product_categories = array (
-						'parts-accessories',
-						'model-material',
-						'support-material'
-					);
-
-					foreach ( $product_categories as $category )
-					{
-						$args = array (
-							'post_type'         => 'product',
-							'taxonomy-machines' => $machines_tax,
-							'product_cat'       => $category,
-							'posts_per_page'    => 4,
-							'orderby'           => 'rand'
-						);
-
-						$loop = new WP_Query( $args );
-						if ( $loop->have_posts () )
-						{
-							?>
-							<div class="products">
-								<h4 class="col-xs-12"><?php
-										if ( $category == "parts-accessories" )
-										{
-											echo "Parts &amp; Accessories";
-										}
-										else
-										{
-											echo ucwords ( str_replace ( '-', ' ', $category ) );
-										} ?></h4>
-								<?php
-									while ( $loop->have_posts () )
-									{
-										$loop->the_post ();
-										wc_get_template_part ( 'content', 'product' );
-									}
-								?>
-							</div> <!-- end .products -->
-							<?php
-						} // end if $loop->$have_posts
-						wp_reset_query (); // Remember to reset
-
-					} // end foreach category
-				?>
 			</section>
 			<?php
 		endwhile;

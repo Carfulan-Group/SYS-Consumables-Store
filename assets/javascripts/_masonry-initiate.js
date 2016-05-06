@@ -11,7 +11,8 @@ function doMasonry ()
 		transitionDuration : '0.3s',
 		percentPosition : true,
 		columnWidth : myColumnWidth
-	} )
+	} );
+
 }
 
 $ ( window ).resize ( function ()
