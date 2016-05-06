@@ -54,7 +54,10 @@
 									{
 										$x++;
 									}
-									$group_sort = strtolower ( str_replace ( ' ', '-', $group ) );
+									$group_sort = strtolower ( $group );
+									$group_sort = str_replace ( '|', '', $group_sort );
+									$group_sort = str_replace ( ' ', '-', $group_sort );
+									$group_sort = str_replace ( '--', '-', $group_sort );
 									echo $group_sort;
 								}
 								echo '"';
@@ -72,7 +75,7 @@
 										?>
 
 										<div class="loop__product__image__container">
-											<img src="<?php echo $url[ 0 ]; ?>" alt="<?php the_title (); ?> image" class="loop__product__image">
+											<img data-layzr="<?php echo $url[ 0 ]; ?>" alt="<?php the_title (); ?> image" class="loop__product__image">
 										</div>
 
 										<?php
@@ -80,7 +83,7 @@
 								?>
 
 								<div class="loop__product__header">
-									<h2 class="loop__product__title"><?php the_title (); ?></h2>
+									<h2 class="loop__product__title"><?php echo ucwords ( get_the_title () ); ?></h2>
 									<p class="loop__product__price"><?php echo $product_price; ?></p>
 								</div>
 

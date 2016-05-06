@@ -26,6 +26,7 @@
 	<h1>Hello <?php echo $current_user->first_name; ?>,</h1>
 	<?php
 		$my_products = array ();
+		$my_groups   = array ();
 
 		query_posts ( array ( 'post_type' => 'product', 'posts_per_page' => '-1' ) );
 		while ( have_posts () ): the_post ();
@@ -34,9 +35,14 @@
 			{
 				$my_products[] = $machine;
 			}
+			foreach ( $page_groups as $group )
+			{
+				$my_groups[] = $group;
+			}
 		endwhile;
 
 		$my_products = array_unique ( $my_products );
+		$my_groups   = array_unique ( $my_groups );
 	?>
 	<h5>Here are some products compatible with your <?php
 			$count = 1;
@@ -73,26 +79,29 @@
 
 <section id="home-products" class="vertical-padding-large">
 	<?php wc_print_notices (); ?>
-	<div class="home-cat-selector">
-		<ul>
-			<li class="active" onclick="catSelect(this)" data-tab="all-cats">All</li>
-			<li onclick="catSelect(this)" data-tab="model-cat">Model Materials</li>
-			<li onclick="catSelect(this)" data-tab="support-cat">Support</li>
-			<li onclick="catSelect(this)" data-tab="parts-accessories-cat">Parts &amp; Accessories</li>
-		</ul>
-	</div>
-	<div class="home-search">
-		<select class="home-search-select" onchange="filterByMachine(this)">
-			<option selected="selected" value="0">All Machines</option>
-			<?php
-				foreach ( $my_products as $product )
-				{
-					echo '<option value="' . $product . '">' . $product . '</option>';
-				}
-			?>
-		</select>
-		<input type="text" class="home__search__input" placeholder="Search" onkeyup="search.hideShow(this)">
-	</div>
+	<section class="row">
+
+		<div class="home-cat-selector col-sm-7">
+			<ul>
+				<li class="active" onclick="catSelect(this)" data-tab="all-cats">All</li>
+				<li onclick="catSelect(this)" data-tab="model-cat">Model Materials</li>
+				<li onclick="catSelect(this)" data-tab="support-cat">Support</li>
+				<li onclick="catSelect(this)" data-tab="parts-accessories-cat">Parts</li>
+			</ul>
+		</div>
+		<div class="home-search col-sm-5">
+			<select class="home-search-select" onchange="filterByMachine(this)">
+				<option selected="selected" value="0">All Machines</option>
+				<?php
+					foreach ( $my_groups as $group )
+					{
+						echo '<option value="' . $group . '">' . $group . '</option>';
+					}
+				?>
+			</select>
+			<input type="text" class="home__search__input" placeholder="Search" onkeyup="search.hideShow(this)">
+		</div>
+	</section>
 	<div class="home-cat-container">
 		<div class="home-cat all-cats model-cat">
 			<h2 class="home__cat__title">Model Materials</h2>

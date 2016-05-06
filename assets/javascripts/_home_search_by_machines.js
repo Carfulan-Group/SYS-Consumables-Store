@@ -2,20 +2,22 @@ var $ = jQuery;
 
 function filterByMachine ( select )
 {
-	var value = "", classes = "";
+	var classes = "",
+		product = $ ( '.loop__product' ),
+		value   = $ ( select ).val ().toLowerCase ().replace ( "|", "" ).replace ( / /g, "-" ).replace ( '--', '-' );
 
-	value = $ ( select ).val ().toLowerCase ().replace ( / /g, "-" );
+	console.log ( value );
 	if ( value == 0 )
 	{
-		$ ( '.loop__product' ).show ();
+		product.show ();
 	}
 	else
 	{
-		$ ( '.loop__product' ).hide ();
-		$ ( '.loop__product' ).each ( function ()
+		product.hide ();
+		product.each ( function ()
 		{
 			classes = $ ( this ).attr ( 'data-machines' );
-			if ( classes.indexOf ( value ) > - 1 )
+			if ( classes.indexOf ( value ) >= 0 )
 			{
 				$ ( this ).show ();
 			}
