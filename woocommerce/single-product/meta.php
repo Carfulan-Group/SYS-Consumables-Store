@@ -27,6 +27,7 @@
 
 ?>
 
+<hr>
 <div class="product_meta">
 
 	<?php do_action ( 'woocommerce_product_meta_start' ); ?>

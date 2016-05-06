@@ -1,24 +1,13 @@
 .single-product {
 
-	.images {
-		img {
-			cursor: zoom-in;
-			max-height: 300px;
-			width: auto;
-			margin: 0 auto;
-		}
-	}
-
 	.single-product-price-container {
-		border-bottom: solid 2px $light-grey;
-		font-size: 1.2em;
 
 		ins .amount {
 			&:after {
 				content: "Sale!";
 				background: $dark-grey;
 				padding: 10px 15px;
-				color: #fff;
+				color: $very-light-grey;
 				margin-left: 20px;
 			}
 		}
@@ -90,6 +79,19 @@
 }
 
 // // //
+// single product page
+// // //
+
+.single__product__compatible__list {
+	list-style-type: decimal;
+	padding: 0 0 0 20px;
+}
+
+.single__product__image {
+	cursor: zoom-in;
+}
+
+// // //
 // loop products
 // // //
 
@@ -99,7 +101,7 @@
 }
 
 .loop__product {
-	margin: 0 0 100px 0;
+	margin: 0 0 30px 0;
 	@extend .col-xs-12;
 	@extend .col-sm-4;
 	@extend .col-md-3;
@@ -107,16 +109,23 @@
 
 .loop__product__link {
 	@extend %tran;
-	color: $dark-grey;
+	color: $very-light-grey;
+	background: $light-blue;
+	box-shadow: 0px 0px 15px 2px rgba($dark-grey, 0.3);
 	display: block;
+	padding: 15px;
+	cursor: cell;
 
 	&:hover {
-		opacity: 0.8;
+		//opacity: 0.8;
+		box-shadow: 0px 0px 15px 2px rgba($dark-grey, 0.5);
 	}
 }
 
 .loop__product__image__container {
 	padding: 0;
+	background: $very-light-grey;
+	margin: -14px -14px 0 -14px;
 }
 
 .loop__product__image {
@@ -124,39 +133,37 @@
 }
 
 .loop__product__header {
-	border-bottom: inset 2px $light-grey;
+	//border-bottom: inset 2px $light-grey;
 	font-size: 18px;
 	overflow: hidden;
-}
-
-.loop__product__title, .loop__product__price {
-
 }
 
 .loop__product__title {
 	display: block;
 	position: relative;
 	margin: 0;
-	padding: 20px 0;
+	padding: 20px 0 0 0;
 	font-size: 1em;
-	color: $dark-grey;
+	color: $very-light-grey;
 }
 
 .loop__product__price {
-	font-size: 1em;
-	padding: 20px 0;
-	margin: 0;
-	text-align: right;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	padding: 0 0 15px 0;
+	margin: 0 0 15px 0;
+	color: $very-light-grey;
+	border-bottom: solid 1px #fff;
 }
 
 .loop__product__link, .loop__product a {
-
+	color: $very-light-grey;
 }
 
 .loop__product__excerpt {
-	text-align: justify;
-	color: $dark-grey;
-	margin: 15px 0 0 0;
+	//text-align: justify;
+	color: $very-light-grey;
+	margin: 0 0 0;
 	padding: 0;
 }
 
