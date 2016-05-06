@@ -80,14 +80,8 @@
 								?>
 
 								<div class="loop__product__header">
-									<div class="row">
-										<div class="col-xs-7">
-											<h2 class="loop__product__title"><?php the_title (); ?></h2>
-										</div>
-										<div class="col-xs-5">
-											<p class="loop__product__price"><?php echo $product_price; ?></p>
-										</div>
-									</div>
+									<h2 class="loop__product__title"><?php the_title (); ?></h2>
+									<p class="loop__product__price"><?php echo $product_price; ?></p>
 								</div>
 
 								<?php

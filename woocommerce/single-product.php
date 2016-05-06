@@ -39,29 +39,44 @@
 					<?php wc_print_notices (); ?>
 				</div>
 
-				<div class="col-sm-6 col-sm-push-3 vertical-padding">
+				<?php
+					if ( has_post_thumbnail () )
+					{
+						?>
+						<div class="single__product__image col-sm-3 vertical-padding">
+							<img onclick="lightbox.open()" data-layzr="<?php the_post_thumbnail_url ( 'medium' ); ?>" alt="<?php the_title (); ?> Image">
+							<div class="lightbox" onclick="lightbox.close()">
+								<img class="lightbox__image" data-layzr="<?php the_post_thumbnail_url ( 'full' ); ?>" alt="Large <?php the_title (); ?> Image">
+							</div>
+						</div>
+
+						<?php
+						$overview_width = "col-sm-6";
+					}
+					else
+					{
+						$overview_width = "col-sm-9";
+					}
+				?>
+
+				<div class="single__product__overview <?php echo $overview_width; ?> vertical-padding">
 					<h3>Overview</h3>
 					<?php
-
-						if ( !empty( $get_the_content ) )
+						if ( get_the_content () )
 						{
-							echo $some_content;
+							the_content ();
 						}
 						else
 						{
-							echo "Sorry, this product has no description.";
+							echo "<p>Sorry, this product has no description.</p>";
 						}
 
 					?>
-				</div>
-
-				<div class="col-sm-3 col-sm-pull-6 vertical-padding">
-					<h3>Details</h3>
 					<?php
 						woocommerce_template_single_meta ();
 					?>
 					<p><strong>Compatible with your:</strong></p>
-					<ul>
+					<ul class="single__product__compatible__list">
 						<?php
 							echo "<li>";
 							the_page_group_machines ( "</li><li>", "</li><li>" );
@@ -70,7 +85,7 @@
 					</ul>
 				</div>
 
-				<div class="col-sm-3 vertical-padding">
+				<div class="single__product__buy col-sm-3 vertical-padding">
 					<h3>Buy</h3>
 					<?php woocommerce_template_single_add_to_cart (); ?>
 				</div>
