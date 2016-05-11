@@ -224,7 +224,47 @@ input, select {
 	border: solid 2px $light-grey;
 }
 
-// woocommerce general
+// // //
+// WooCommerce Stuff
+// // //
+
+.wc__address__item {
+	@extend .col-md-3;
+	margin-bottom: 20x;
+	float: left;
+	clear: none;
+
+	&:nth-of-type(4n + 1) {
+		float: left;
+		clear: both;
+	}
+
+	input, select, textarea, label {
+		display: block;
+		width: 100%;
+		float: left;
+		clear: both;
+		margin-bottom: 10px;
+		padding: 0;
+	}
+
+	input, select, textarea {
+		padding: 10px 15px;
+		font-size: 1em;
+		line-height: 1.5em;
+	}
+}
+
+.demo_store {
+	@extend .alert;
+	@extend .alert-danger;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 999999;
+}
 
 button, input[type="submit"] {
 	@extend .sys-button;

@@ -81,7 +81,7 @@
 	<?php wc_print_notices (); ?>
 	<section class="row">
 
-		<div class="home-cat-selector col-sm-7">
+		<div class="home-cat-selector col-lg-7">
 			<ul>
 				<li class="active" onclick="catSelect(this)" data-tab="all-cats">All</li>
 				<li onclick="catSelect(this)" data-tab="model-cat">Model Materials</li>
@@ -89,7 +89,7 @@
 				<li onclick="catSelect(this)" data-tab="parts-accessories-cat">Parts</li>
 			</ul>
 		</div>
-		<div class="home-search col-sm-5">
+		<div class="home-search col-lg-5">
 			<select class="home-search-select" onchange="filterByMachine(this)">
 				<option selected="selected" value="0">All Machines</option>
 				<?php

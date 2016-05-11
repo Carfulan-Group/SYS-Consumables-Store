@@ -1,4 +1,8 @@
 .woocommerce-checkout {
+	// below totals
+	.sys-button {
+		margin-top: 40px;
+	}
 
 	.woocommerce-thankyou-order-received {
 		@extend .alert;
@@ -11,12 +15,66 @@
 
 	.woocommerce-shipping-fields {
 		@extend .row;
-		margin-top:40px;
-		margin-bottom:40px;
-	}
-
-	.sys-button {
 		margin-top: 40px;
+		margin-bottom: 40px;
 	}
 
+
+}
+
+#shipping_method {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+	label {
+		display: inline-block;
+		width: auto;
+		padding: 10px 0 10px 10px;
+	}
+}
+
+.shipping__address__button {
+	margin: 0 0 40px 0 !important;
+}
+
+.select2-choice {
+	border: solid 2px $light-grey;
+	padding: 10px 15px;
+	border-radius: 0;
+}
+
+// moves the country dropdown to the right place and stuff
+.select2-drop {
+	margin-top: -32px !important;
+	border: solid 2px $light-grey;
+	border-top: none;
+	padding-top: 10px;
+
+	input {
+		margin-bottom: 10px;
+	}
+}
+
+#billing_country, #shipping_country {
+	display: block !important;
+}
+
+.select2-container {
+	display: none !important;
+}
+
+#request_callback_custom_field {
+	label {
+		position: relative;
+		padding-left: 30px;
+
+		input {
+			width: auto;
+			position: absolute;
+			top: 0;
+			left: 25px;
+			//transform: translatey(-50%);
+		}
+	}
 }

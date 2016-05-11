@@ -5,11 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6dbe16d-b0b9-4395-b67b-f37e8f898d3b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascripts/_Hider.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascripts/_smoothstate-intitiate.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/_product_name_cleanser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/_smoothstate-initiate.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/_home_search_by_machines.js" afterPath="$PROJECT_DIR$/assets/javascripts/_home_search_by_machines.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/build.js" afterPath="$PROJECT_DIR$/assets/javascripts/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/_body.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/_body.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/_checkout.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/_checkout.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/_front-page.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/_front-page.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/_variables.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/assets/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-page.php" afterPath="$PROJECT_DIR$/front-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sys-product-loop.php" afterPath="$PROJECT_DIR$/sys-product-loop.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/cart/cart-totals.php" afterPath="$PROJECT_DIR$/woocommerce/cart/cart-totals.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/checkout/form-billing.php" afterPath="$PROJECT_DIR$/woocommerce/checkout/form-billing.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/checkout/form-shipping.php" afterPath="$PROJECT_DIR$/woocommerce/checkout/form-shipping.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/myaccount/form-edit-address.php" afterPath="$PROJECT_DIR$/woocommerce/myaccount/form-edit-address.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/myaccount/my-address.php" afterPath="$PROJECT_DIR$/woocommerce/myaccount/my-address.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/myaccount/my-orders.php" afterPath="$PROJECT_DIR$/woocommerce/myaccount/my-orders.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/myaccount/view-order.php" afterPath="$PROJECT_DIR$/woocommerce/myaccount/view-order.php" />
     </list>
     <ignored path="sys-consumables-store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,245 +47,173 @@
     <favorites_list name="sys-consumables-store" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5533049">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="sys-product-loop.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sys-product-loop.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="133">
-                  <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="masonry.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/masonry/masonry.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_masonry-initiate.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/javascripts/_masonry-initiate.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/front-page.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="140">
-                  <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_home_search_by_machines.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/javascripts/_home_search_by_machines.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="224">
-                  <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="single-product.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/woocommerce/single-product.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="504">
-                  <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-                  <folding>
-                    <element signature="e#7#699#0#PHP" expanded="true" />
-                    <marker date="1462545953301" expanded="true" signature="2712:2799" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_product-category.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/stylesheets/_product-category.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="content-product_cat.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/woocommerce/content-product_cat.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-301">
-                  <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-                  <folding>
-                    <element signature="e#7#709#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="taxonomy-product_cat.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/woocommerce/taxonomy-product_cat.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="203">
-                  <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#7#725#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="meta.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/woocommerce/single-product/meta.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="_single-product.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/stylesheets/_single-product.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="217">
-                  <caret line="174" column="13" selection-start-line="174" selection-start-column="13" selection-end-line="174" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_front-page.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/stylesheets/_front-page.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="217">
-                  <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/fontello/demo.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
-                  <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/functions.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="301">
-                  <caret line="214" column="41" selection-start-line="214" selection-start-column="41" selection-end-line="214" selection-end-column="41" />
-                  <folding>
-                    <marker date="1462538415662" expanded="true" signature="8980:9160" placeholder="..." />
-                    <marker date="1462538415662" expanded="true" signature="8987:9152" placeholder="{...}" />
-                    <marker date="1462538415662" expanded="true" signature="9513:9683" placeholder="..." />
-                    <marker date="1462538415662" expanded="true" signature="14785:14823" placeholder="..." />
-                    <marker date="1462538415662" expanded="true" signature="14785:15051" placeholder="..." />
-                    <marker date="1462538415662" expanded="true" signature="14785:15107" placeholder="..." />
-                    <marker date="1462538415662" expanded="true" signature="14785:15117" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="single-product.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/templates/single-product.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="385">
-                  <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_body.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
-                  <caret line="167" column="1" selection-start-line="167" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_lightbox.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/javascripts/_lightbox.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="269">
+      <file leaf-file-name="my-account.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woocommerce/myaccount/my-account.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+              <folding>
+                <marker date="1456313578861" expanded="true" signature="821:840" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-orders.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woocommerce/myaccount/my-orders.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_checkout.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/_checkout.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form-edit-address.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woocommerce/myaccount/form-edit-address.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woocommerce/cart/cart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="87" column="53" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart-totals.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woocommerce/cart/cart-totals.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="33" />
+              <folding>
+                <element signature="e#7#666#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+              <folding>
+                <marker date="1462975014485" expanded="true" signature="8459:8639" placeholder="..." />
+                <marker date="1462975014485" expanded="true" signature="8466:8631" placeholder="{...}" />
+                <marker date="1462975014485" expanded="true" signature="8992:9162" placeholder="..." />
+                <marker date="1462975014485" expanded="true" signature="11151:11432" placeholder="..." />
+                <marker date="1462975014485" expanded="true" signature="11181:11339" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sys-machines-taxonomy.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../plugins/sys-machines-taxonomy/sys-machines-taxonomy.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="e#7#285#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sys-request-callback.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../plugins/sys-request-callback/sys-request-callback.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="6" />
+              <folding>
+                <element signature="e#7#251#0#PHP" expanded="true" />
+                <marker date="1462970736318" expanded="true" signature="2009:2206" placeholder="..." />
+                <marker date="1462970736318" expanded="true" signature="2250:2885" placeholder="..." />
+                <marker date="1462970736318" expanded="true" signature="2251:2260" placeholder="..." />
+                <marker date="1462970736318" expanded="true" signature="2251:2875" placeholder="..." />
+                <marker date="1462970736318" expanded="true" signature="2286:2530" placeholder="..." />
+                <marker date="1462970736318" expanded="true" signature="2610:2854" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form-checkout.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woocommerce/checkout/form-checkout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/woocommerce/cart/proceed-to-checkout-button.php" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/_header.scss" />
-        <option value="$PROJECT_DIR$/assets/javascripts/_smoothstate-initiate.js" />
-        <option value="$PROJECT_DIR$/assets/javascripts/_home-search.js" />
-        <option value="$PROJECT_DIR$/assets/javascripts/test.ts" />
-        <option value="$PROJECT_DIR$/assets/javascripts/_continue-shopping.js" />
-        <option value="$PROJECT_DIR$/assets/javascripts/_continue-shopping.ts" />
-        <option value="$PROJECT_DIR$/assets/javascripts/_home-cat.ts" />
-        <option value="$PROJECT_DIR$/assets/javascripts/_home-cat.js" />
+        <option value="$PROJECT_DIR$/assets/javascripts/_side-wide-notice.js" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/woocommerce/emails/customer-new-account.php" />
-        <option value="$PROJECT_DIR$/assets/javascripts/_lightbox.ts" />
-        <option value="$PROJECT_DIR$/assets/javascripts/_lightbox.js" />
+        <option value="$PROJECT_DIR$/assets/javascripts/_fixCountrySelect.ts" />
+        <option value="$PROJECT_DIR$/woocommerce/checkout/form-billing.php" />
+        <option value="$PROJECT_DIR$/woocommerce/checkout/form-shipping.php" />
         <option value="$PROJECT_DIR$/assets/stylesheets/_body.scss" />
-        <option value="$USER_HOME$/Desktop/SYS Consumables Holding/index.html" />
-        <option value="$PROJECT_DIR$/front-page.php" />
+        <option value="$PROJECT_DIR$/asasas.php" />
+        <option value="$PROJECT_DIR$/../../plugins/sys-shipping/sys-shipping.php" />
+        <option value="$PROJECT_DIR$/../../plugins/sys-standard-shipping/sys-standard-shipping.php" />
+        <option value="$PROJECT_DIR$/../../plugins/sys-express-shipping/sys-express-shipping.php" />
+        <option value="$PROJECT_DIR$/../../plugins/sys-purchase-order/sys-purchase-order.php" />
+        <option value="$PROJECT_DIR$/../../plugins/sys-validate-checkout-options/sys-validate-checkout-options.php" />
+        <option value="$PROJECT_DIR$/../../plugins/sys-request-callback/sys-request-callback.php" />
+        <option value="$PROJECT_DIR$/../../plugins/sys-remove-payment-method/sys-remove-payment-method.php" />
+        <option value="$PROJECT_DIR$/woocommerce/myaccount/view-order.php" />
         <option value="$PROJECT_DIR$/assets/stylesheets/_front-page.scss" />
-        <option value="$PROJECT_DIR$/assets/javascripts/_home_search_by_machines.js" />
+        <option value="$PROJECT_DIR$/front-page.php" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/_variables.scss" />
+        <option value="$PROJECT_DIR$/assets/javascripts/_Hider.ts" />
+        <option value="$PROJECT_DIR$/assets/javascripts/_smoothstate-intitiate.js" />
+        <option value="$PROJECT_DIR$/woocommerce/myaccount/my-orders.php" />
+        <option value="$PROJECT_DIR$/woocommerce/myaccount/form-edit-address.php" />
+        <option value="$PROJECT_DIR$/woocommerce/cart/cart-totals.php" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/_checkout.scss" />
+        <option value="$PROJECT_DIR$/../../plugins/sys-machines-taxonomy/sys-machines-taxonomy.php" />
         <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/sys-product-loop.php" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/_single-product.scss" />
-        <option value="$PROJECT_DIR$/assets/javascripts/_masonry-initiate.js" />
-        <option value="$PROJECT_DIR$/woocommerce/single-product/meta.php" />
-        <option value="$PROJECT_DIR$/woocommerce/single-product.php" />
-        <option value="$PROJECT_DIR$/woocommerce/content-product_cat.php" />
-        <option value="$PROJECT_DIR$/woocommerce/taxonomy-product_cat.php" />
       </list>
     </option>
   </component>
@@ -365,7 +310,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -384,6 +329,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -482,15 +428,286 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumables" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="woocommerce" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumables" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="woocommerce" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumables" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="woocommerce" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumables" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumables" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumables" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_Hider.ts" />
+              <option name="myItemType" value="com.intellij.lang.typescript.compiler.ui.projectView.TypeScriptNestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumables" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumables" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumables" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-request-callback" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-consumables-store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumables" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys-machines-taxonomy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="sing&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;categor&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_product-category.scss&#10;meta&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product/meta.php&#10;single&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;function&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;maso&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_masonry-initiate.js&#10;mason&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/vendor/masonry/masonry.js&#10;loop&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;sys&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;machin&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;home-sear&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home-search.js&#10;front-page.sc&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_front-page.scss&#10;front&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;func&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;functions&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;bo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;bod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;produc&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;gulp&#9;ACTION&#9;ActivateGulpToolWindow&#10;sys-p&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;body&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;gulpf&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/gulpfile.js&#10;single-prod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/plugins/woocommerce/templates/single-product.php&#10;header.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/header.php&#10;sear&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;fron&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;termina&#9;ACTION&#9;ActivateTerminalToolWindow&#10;header&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/header.php&#10;smooth&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_smoothstate-initiate.js&#10;smoo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_smoothstate-initiate.js&#10;termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;se&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home-search.js&#10;header.scss&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_header.scss&#10;loo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;main.scs&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/main.scss&#10;gu&#9;ACTION&#9;ActivateGulpToolWindow&#10;prod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;GULP&#9;ACTION&#9;ActivateGulpToolWindow&#10;headr&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_initiate-headroom.js&#10;explorer&#9;ACTION&#9;RevealIn&#10;gul&#9;ACTION&#9;ActivateGulpToolWindow&#10;fun&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;footer&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/footer.php&#10;var&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_variables.scss&#10;variables&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_variables.scss&#10;vari&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product/add-to-cart/variation.php&#10;single pro&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;fr&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;funct&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;si&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="SearchEverywhereHistoryKey" value="func&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;fun&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;funct&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;variables.sc&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_variables.scss&#10;body&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;front&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;front-pag&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_front-page.scss&#10;function&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;bo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;smooth&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_smoothstate-intitiate.js&#10;gulp&#9;ACTION&#9;ActivateGulpToolWindow&#10;header.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/header.php&#10;BOD&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;functi&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;sing&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;categor&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_product-category.scss&#10;meta&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product/meta.php&#10;single&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;maso&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_masonry-initiate.js&#10;mason&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/vendor/masonry/masonry.js&#10;loop&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;sys&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;machin&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;home-sear&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home-search.js&#10;front-page.sc&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_front-page.scss&#10;functions&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;bod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;produc&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;sys-p&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;gulpf&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/gulpfile.js&#10;single-prod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/plugins/woocommerce/templates/single-product.php&#10;sear&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;fron&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;termina&#9;ACTION&#9;ActivateTerminalToolWindow&#10;header&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/header.php&#10;smoo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_smoothstate-initiate.js&#10;termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;se&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home-search.js&#10;header.scss&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_header.scss&#10;loo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;main.scs&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/main.scss&#10;gu&#9;ACTION&#9;ActivateGulpToolWindow&#10;prod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;GULP&#9;ACTION&#9;ActivateGulpToolWindow&#10;headr&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_initiate-headroom.js&#10;explorer&#9;ACTION&#9;RevealIn&#10;gul&#9;ACTION&#9;ActivateGulpToolWindow&#10;footer&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/footer.php&#10;var&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_variables.scss&#10;variables&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_variables.scss" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../sys" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="C:\Program Files (x86)\nodejs\node" />
@@ -499,6 +716,12 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="js.eslint.nodeInterpreter" value="project" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\consumables\wp-content\plugins\sys-request-callback" />
+      <recent name="C:\xampp\htdocs\consumables\wp-content\plugins" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -567,7 +790,10 @@
       <workItem from="1462263135023" duration="11620000" />
       <workItem from="1462345424131" duration="27188000" />
       <workItem from="1462431940569" duration="13959000" />
-      <workItem from="1462518577325" duration="19061000" />
+      <workItem from="1462518577325" duration="19138000" />
+      <workItem from="1462863808001" duration="24687000" />
+      <workItem from="1462950431308" duration="1031000" />
+      <workItem from="1462951588017" duration="17094000" />
     </task>
     <task id="LOCAL-00001" summary="Made table heading normal case again">
       <created>1460555474817</created>
@@ -779,11 +1005,18 @@
       <option name="project" value="LOCAL" />
       <updated>1462546724603</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="FIX: Home product search not working with the new product loop">
+      <created>1462546751147</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1462546751147</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230078000" />
+    <option name="totallyTimeSpent" value="272967000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -799,28 +1032,52 @@
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13128205" sideWeight="0.49737877" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1399177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.50262123" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285273" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.64160657" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25334707" sideWeight="0.49475753" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32304525" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21215352" sideWeight="0.392379" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21215352" sideWeight="0.607621" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6405767" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25308642" sideWeight="0.49475753" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3223481" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2185501" sideWeight="0.4074074" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20842217" sideWeight="0.5925926" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32749742" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.4789189" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20628998" sideWeight="0.34706488" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10894142" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285273" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285273" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13128205" sideWeight="0.49737877" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1399177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.50262123" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10894142" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285273" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6409465" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25308642" sideWeight="0.49475753" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32304525" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2185501" sideWeight="0.4074074" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33315566" sideWeight="0.5925926" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.4789189" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20628998" sideWeight="0.34706488" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -834,7 +1091,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Made .product heading font smaller" />
     <MESSAGE value="Cleaned up machine names with JS, anything in brackets get's moved to a mini-description" />
     <MESSAGE value="Changed category machines to parts &amp; accessories" />
     <MESSAGE value="Fixed issue with edit address fields clearing each other ( not being in 3 columns )" />
@@ -859,7 +1115,8 @@
     <MESSAGE value="NEW: Lightbox on single-product template" />
     <MESSAGE value="IMPROVEMENTS: Category page now works with new product loop" />
     <MESSAGE value="IMPROVEMENTS: Single product page style changes, added featured image adn lightbox as well" />
-    <option name="LAST_COMMIT_MESSAGE" value="IMPROVEMENTS: Single product page style changes, added featured image adn lightbox as well" />
+    <MESSAGE value="FIX: Home product search not working with the new product loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIX: Home product search not working with the new product loop" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs\consumables</wordpressPath>
@@ -876,233 +1133,257 @@
           <line>45</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/woocommerce/checkout/form-checkout.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/fontello/demo.html">
+    <entry file="file://$PROJECT_DIR$/woocommerce/myaccount/my-address.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="106">
+          <caret line="61" column="70" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/_lightbox.js">
+    <entry file="file://$PROJECT_DIR$/woocommerce/order/order-details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="301">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
+    <entry file="file://$PROJECT_DIR$/asasas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="167" column="1" selection-start-line="167" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+        <state relative-caret-position="347">
+          <caret line="953" column="0" selection-start-line="953" selection-start-column="0" selection-end-line="954" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php">
+    <entry file="file://$PROJECT_DIR$/../../plugins/sys-express-shipping/sys-express-shipping.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#213#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/sys-standard-shipping/sys-standard-shipping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#7#214#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/sys-purchase-order/sys-purchase-order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="74" column="288" selection-start-line="74" selection-start-column="288" selection-end-line="74" selection-end-column="288" />
+          <folding>
+            <element signature="e#7#209#0#PHP" expanded="true" />
+            <marker date="1462967561831" expanded="true" signature="1880:2077" placeholder="..." />
+            <marker date="1462967561831" expanded="true" signature="2121:2782" placeholder="..." />
+            <marker date="1462967561831" expanded="true" signature="2129:2723" placeholder="..." />
+            <marker date="1462967561831" expanded="true" signature="2129:2770" placeholder="..." />
+            <marker date="1462967561831" expanded="true" signature="2157:2401" placeholder="..." />
+            <marker date="1462967561831" expanded="true" signature="2476:2720" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/sys-validate-checkout-options/sys-validate-checkout-options.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/emails/customer-new-account.php">
+    <entry file="file://$PROJECT_DIR$/../../plugins/sys-remove-payment-method/sys-remove-payment-method.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        <state relative-caret-position="280">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/single-product/add-to-cart/grouped.php">
+    <entry file="file://$PROJECT_DIR$/woocommerce/myaccount/view-order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/single-product/add-to-cart/external.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/High Temperature 525 £960.00 Combining heat resistance with exceptional dimensional stability, high temperature material can simulate the thermal performance.url">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/SYS Consumables Holding/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/_home-search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/_home_search_by_machines.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        <state relative-caret-position="308">
+          <caret line="28" column="140" selection-start-line="28" selection-start-column="140" selection-end-line="28" selection-end-column="140" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/_front-page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="252">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/_home_search_by_machines.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="305">
+          <caret line="87" column="54" selection-start-line="87" selection-start-column="53" selection-end-line="87" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sys-product-loop.php">
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="305">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/masonry/masonry.js">
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="193">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/_Hider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <marker date="1462973789509" expanded="true" signature="443:451" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/_single-product.scss">
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/_Hider.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="174" column="13" selection-start-line="174" selection-start-column="13" selection-end-line="174" selection-end-column="13" />
+        <state relative-caret-position="196">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/_smoothstate-intitiate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc;n#pageLoad#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/myaccount/my-account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+          <folding>
+            <marker date="1456313578861" expanded="true" signature="821:840" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/myaccount/my-orders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/myaccount/form-edit-address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/cart/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="87" column="53" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/checkout/form-checkout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/_checkout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/cart/cart-totals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="33" />
+          <folding>
+            <element signature="e#7#666#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/sys-request-callback/sys-request-callback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#7#251#0#PHP" expanded="true" />
+            <marker date="1462970736318" expanded="true" signature="2009:2206" placeholder="..." />
+            <marker date="1462970736318" expanded="true" signature="2250:2885" placeholder="..." />
+            <marker date="1462970736318" expanded="true" signature="2251:2260" placeholder="..." />
+            <marker date="1462970736318" expanded="true" signature="2251:2875" placeholder="..." />
+            <marker date="1462970736318" expanded="true" signature="2286:2530" placeholder="..." />
+            <marker date="1462970736318" expanded="true" signature="2610:2854" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/sys-machines-taxonomy/sys-machines-taxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#285#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="214" column="41" selection-start-line="214" selection-start-column="41" selection-end-line="214" selection-end-column="41" />
+        <state relative-caret-position="277">
+          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
           <folding>
-            <marker date="1462538415662" expanded="true" signature="8980:9160" placeholder="..." />
-            <marker date="1462538415662" expanded="true" signature="8987:9152" placeholder="{...}" />
-            <marker date="1462538415662" expanded="true" signature="9513:9683" placeholder="..." />
-            <marker date="1462538415662" expanded="true" signature="14785:14823" placeholder="..." />
-            <marker date="1462538415662" expanded="true" signature="14785:15051" placeholder="..." />
-            <marker date="1462538415662" expanded="true" signature="14785:15107" placeholder="..." />
-            <marker date="1462538415662" expanded="true" signature="14785:15117" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/_masonry-initiate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/single-product/meta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/_product-category.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/templates/single-product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/single-product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding>
-            <element signature="e#7#699#0#PHP" expanded="true" />
-            <marker date="1462545953301" expanded="true" signature="2712:2799" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/content-product_cat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-301">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-          <folding>
-            <element signature="e#7#709#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/taxonomy-product_cat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="e#7#725#0#PHP" expanded="true" />
+            <marker date="1462975014485" expanded="true" signature="8459:8639" placeholder="..." />
+            <marker date="1462975014485" expanded="true" signature="8466:8631" placeholder="{...}" />
+            <marker date="1462975014485" expanded="true" signature="8992:9162" placeholder="..." />
+            <marker date="1462975014485" expanded="true" signature="11151:11432" placeholder="..." />
+            <marker date="1462975014485" expanded="true" signature="11181:11339" placeholder="..." />
           </folding>
         </state>
       </provider>

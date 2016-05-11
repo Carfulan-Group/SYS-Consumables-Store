@@ -5,12 +5,11 @@
 	* */
 	add_filter ( 'wc_add_to_cart_message', 'custom_add_to_cart_message' );
 	add_filter ( 'woocommerce_product_tabs', 'remove_review_tab', 98 );
-	add_filter ( 'woocommerce_billing_fields', 'set_billing_feilds' );
+	add_filter ( 'woocommerce_billing_fields', 'set_billing_fields' );
+	add_filter ( 'woocommerce_shipping_fields', 'set_shipping_fields' );
 	add_filter ( 'register_form', 'set_registration_fields' );
 	add_filter ( 'registration_errors', 'check_registration_errors', 10, 3 );
 	add_filter ( 'woocommerce_registration_redirect', 'after_registration_redirect' );
-	add_filter ( 'woocommerce_shipping_fields', 'set_shipping_fields' );
-	add_filter ( 'woocommerce_email_order_meta_keys', 'purchase_order_custom_field_order_meta_keys' );
 	add_filter ( 'woocommerce_login_redirect', 'wc_login_redirect' );
 	add_filter ( 'woocommerce_enqueue_styles', '__return_empty_array' );
 	add_filter ( 'woocommerce_enable_order_notes_field', '__return_false' );
@@ -23,11 +22,6 @@
 	/*
 	* Add Actions
 	* */
-	add_action ( 'init', 'machines' );
-	add_action ( 'woocommerce_after_order_notes', 'purchase_order_custom_field' );
-	add_action ( 'woocommerce_checkout_update_user_meta', 'purchase_order_custom_field_update_user_meta' );
-	add_action ( 'woocommerce_checkout_process', 'purchase_order_custom_field_process' );
-	add_action ( 'woocommerce_checkout_update_order_meta', 'purchase_order_custom_field_update_order_meta' );
 	add_action ( 'new_customer_registered', 'new_customer_registered_send_email_admin' );
 	add_action ( 'wp_logout', 'redirect_after_logout' );
 	add_action ( 'woocommerce_created_customer', 'add_extra_registration_fields' );
@@ -36,8 +30,8 @@
 	add_action ( 'wp_enqueue_scripts', 'theme_scripts' );
 
 	/*
-	 * Add Theme SupportSupport
-	 * */
+	* Add Theme SupportSupport
+	* */
 	add_theme_support ( 'post_thumbnails' );
 
 	/*
@@ -178,7 +172,7 @@
 	{
 		global $page_machines;
 		get_page_group_machines ();
-		// for each $page_machine in array, display name
+// for each $page_machine in array, display name
 		$count  = 1;
 		$length = count ( $page_machines );
 		foreach ( $page_machines as $machines )
@@ -210,7 +204,7 @@
 	{
 		global $page_groups;
 		get_page_group_machines ();
-		// for each $page_machine in array, display name
+// for each $page_machine in array, display name
 		$count  = 1;
 		$length = count ( $page_groups );
 		foreach ( $page_groups as $groups )
@@ -366,9 +360,9 @@ background-size:auto!important;
 // // //
 // remove fields from billing details
 // // //
-	function set_billing_feilds ( $fields )
+	function set_billing_fields ( $fields )
 	{
-		unset( $fields[ 'billing_country' ] );
+//		unset( $fields[ 'billing_country' ] );
 		unset( $fields[ 'billing_state' ] );
 		unset( $fields[ 'billing_address_2' ] );
 
@@ -376,12 +370,13 @@ background-size:auto!important;
 	}
 
 // // //
-// remove fields from shipping fields
+// remove fields from shipping details
 // // //
 	function set_shipping_fields ( $fields )
 	{
-		unset( $fields[ 'shipping_country' ] );
-		add_filter ( 'woocommerce_registration_redirect', 'woocommerce_register_redirect' );
+
+		unset( $fields[ 'shipping_state' ] );
+		unset( $fields[ 'shipping_address_2' ] );
 
 		return $fields;
 	}
@@ -406,109 +401,6 @@ background-size:auto!important;
 		return $redirect;
 	}
 
-// // //
-// add p.o field to checkout
-// // //
-	function purchase_order_custom_field ( $checkout )
-	{
-		echo '<div id="purchase_order_custom_field">';
-// // //
-// output the p.o field
-// // //
-		woocommerce_form_field (
-			'purchase_order', array (
-			'type'        => 'text',
-			'required'    => true,
-			'class'       => array ( 'col-sm-4' ),
-			'label'       => __ ( 'Purchase Order Number' ),
-			'placeholder' => __ ( 'P.O' ),
-		), $checkout->get_value ( 'purchase_order' )
-		);
-		echo '</div>';
-	}
-
-// // //
-// Process the checkout
-// // //
-	function purchase_order_custom_field_process ()
-	{
-		global $woocommerce;
-		if ( !$_POST[ 'purchase_order' ] )
-		{
-			wc_add_notice ( sprintf ( __ ( "Please enter a purchase order number.", "English" ) ), 'error' );
-		}
-	}
-
-// // //
-// save p.o value to user
-// // //
-	function purchase_order_custom_field_update_user_meta ( $user_id )
-	{
-		if ( $user_id && $_POST[ 'purchase_order' ] )
-		{
-			update_user_meta ( $user_id, 'purchase_order', esc_attr ( $_POST[ 'purchase_order' ] ) );
-		}
-	}
-
-// // //
-// save p.o to order
-// // //
-	function purchase_order_custom_field_update_order_meta ( $order_id )
-	{
-		if ( $_POST[ 'purchase_order' ] )
-		{
-			update_post_meta ( $order_id, 'Purchase Order', esc_attr ( $_POST[ 'purchase_order' ] ) );
-		}
-	}
-
-// // //
-// add p.o to order emails
-// // //
-	function purchase_order_custom_field_order_meta_keys ( $keys )
-	{
-		$keys[] = 'Purchase Order';
-		echo "<h2>Additional Information</h2><li class='remove_p_height'>";
-
-		return $keys;
-		echo "</li>";
-	}
-
-// // //
-// adds machine taxonomy, this is for filtering on the shop page
-// // //
-	function machines ()
-	{
-		$labels = array (
-			'name'                  => _x ( 'Machines', 'Machines', 'machines' ),
-			'singular_name'         => _x ( 'Machine', 'Machine', 'machines' ),
-			'search_items'          => __ ( 'Search Machines', 'machines' ),
-			'popular_items'         => __ ( 'Popular Machines', 'machines' ),
-			'all_items'             => __ ( 'All Machines', 'machines' ),
-			'parent_item'           => __ ( 'Parent Machine', 'machines' ),
-			'parent_item_colon'     => __ ( 'Parent Machine', 'machines' ),
-			'edit_item'             => __ ( 'Edit Machine', 'machines' ),
-			'update_item'           => __ ( 'Update Machine', 'machines' ),
-			'add_new_item'          => __ ( 'Add New Machine', 'machines' ),
-			'new_item_name'         => __ ( 'New Machine Name', 'machines' ),
-			'add_or_remove_items'   => __ ( 'Add or remove Machines', 'machines' ),
-			'choose_from_most_used' => __ ( 'Choose from most used machines', 'machines' ),
-			'menu_name'             => __ ( 'Machine', 'machines' ),
-		);
-		$args   = array (
-			'labels'            => $labels,
-			'public'            => true,
-			'show_in_nav_menus' => true,
-			'show_admin_column' => true,
-			'hierarchical'      => false,
-			'show_tagcloud'     => true,
-			'show_ui'           => true,
-			'query_var'         => true,
-			'rewrite'           => true,
-			'capabilities'      => array (),
-		);
-		register_taxonomy ( 'taxonomy-machines', array ( 'product' ), $args );
-	}
-
 	function custom_add_to_cart_redirect_function ()
 	{
 		return '';
@@ -517,14 +409,14 @@ background-size:auto!important;
 	function custom_add_to_cart_message ()
 	{
 		$message = "<div class='clearfix'>
-						<p class='alert__text--left'>
-							<a href='" . site_url () . "'>Continue Shopping</a>
-							&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-							<a href='" . site_url () . "/cart'>View Basket</a>
-						</p>
-							
-						<p class='alert__text--right'>This product has been added to your shopping cart.</p>
-					</div>";
+<p class='alert__text--left'>
+<a href='" . site_url () . "'>Continue Shopping</a>
+&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+<a href='" . site_url () . "/cart'>View Basket</a>
+</p>
+
+<p class='alert__text--right'>This product has been added to your shopping cart.</p>
+</div>";
 
 		return $message;
 	}
