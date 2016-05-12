@@ -6,7 +6,6 @@ function filterByMachine ( select )
 		product = $ ( '.loop__product' ),
 		value   = $ ( select ).val ().toLowerCase ().replace ( "|", "" ).replace ( / /g, "-" ).replace ( '--', '-' );
 
-	console.log ( value );
 	if ( value == 0 )
 	{
 		product.show ();
