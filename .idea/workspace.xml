@@ -4,13 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6dbe16d-b0b9-4395-b67b-f37e8f898d3b" name="Default" comment="UPDATE: Leaving the job tomorrow, hopefully done everything that they want now, hello to new developer :)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascripts/_Hider.js.map" />
+    <list default="true" id="c6dbe16d-b0b9-4395-b67b-f37e8f898d3b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/_smoothstate-intitiate.js" afterPath="$PROJECT_DIR$/assets/javascripts/_smoothstate-intitiate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/build.js" afterPath="$PROJECT_DIR$/assets/javascripts/build.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/assets/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woocommerce/single-product.php" afterPath="$PROJECT_DIR$/woocommerce/single-product.php" />
     </list>
     <ignored path="sys-consumables-store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,18 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="269">
-      <file leaf-file-name="cart-totals.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/woocommerce/cart/cart-totals.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1064">
-              <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="33" />
-              <folding>
-                <element signature="e#7#666#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,11 +55,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="476">
+              <caret line="17" column="70" selection-start-line="16" selection-start-column="26" selection-end-line="17" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_body.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single-product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/templates/single-product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single-product.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/woocommerce/single-product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -122,24 +137,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sys-request-callback.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../plugins/sys-request-callback/sys-request-callback.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="6" />
-              <folding>
-                <element signature="e#7#251#0#PHP" expanded="true" />
-                <marker date="1462970736318" expanded="true" signature="2009:2206" placeholder="..." />
-                <marker date="1462970736318" expanded="true" signature="2250:2885" placeholder="..." />
-                <marker date="1462970736318" expanded="true" signature="2251:2260" placeholder="..." />
-                <marker date="1462970736318" expanded="true" signature="2251:2875" placeholder="..." />
-                <marker date="1462970736318" expanded="true" signature="2286:2530" placeholder="..." />
-                <marker date="1462970736318" expanded="true" signature="2610:2854" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -157,10 +154,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/javascripts/_fixCountrySelect.ts" />
         <option value="$PROJECT_DIR$/woocommerce/checkout/form-billing.php" />
         <option value="$PROJECT_DIR$/woocommerce/checkout/form-shipping.php" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/_body.scss" />
         <option value="$PROJECT_DIR$/asasas.php" />
         <option value="$PROJECT_DIR$/../../plugins/sys-shipping/sys-shipping.php" />
         <option value="$PROJECT_DIR$/../../plugins/sys-standard-shipping/sys-standard-shipping.php" />
@@ -183,6 +178,8 @@
         <option value="$PROJECT_DIR$/logouter.php" />
         <option value="$PROJECT_DIR$/assets/javascripts/_smoothstate-intitiate.js" />
         <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/_body.scss" />
+        <option value="$PROJECT_DIR$/woocommerce/single-product.php" />
       </list>
     </option>
   </component>
@@ -676,7 +673,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="footer&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/footer.php&#10;smooth&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_smoothstate-intitiate.js&#10;l&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/logouter.php&#10;front&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;funct&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;func&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;fun&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;variables.sc&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_variables.scss&#10;body&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;front-pag&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_front-page.scss&#10;function&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;bo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;gulp&#9;ACTION&#9;ActivateGulpToolWindow&#10;header.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/header.php&#10;BOD&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;functi&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;sing&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;categor&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_product-category.scss&#10;meta&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product/meta.php&#10;single&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;maso&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_masonry-initiate.js&#10;mason&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/vendor/masonry/masonry.js&#10;loop&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;sys&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;machin&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;home-sear&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home-search.js&#10;front-page.sc&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_front-page.scss&#10;functions&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;bod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;produc&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;sys-p&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;gulpf&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/gulpfile.js&#10;single-prod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/plugins/woocommerce/templates/single-product.php&#10;sear&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;fron&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;termina&#9;ACTION&#9;ActivateTerminalToolWindow&#10;header&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/header.php&#10;smoo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_smoothstate-initiate.js&#10;termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;se&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home-search.js&#10;header.scss&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_header.scss&#10;loo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;main.scs&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/main.scss&#10;gu&#9;ACTION&#9;ActivateGulpToolWindow&#10;prod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;GULP&#9;ACTION&#9;ActivateGulpToolWindow&#10;headr&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_initiate-headroom.js&#10;explorer&#9;ACTION&#9;RevealIn&#10;gul&#9;ACTION&#9;ActivateGulpToolWindow&#10;var&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_variables.scss" />
+    <property name="SearchEverywhereHistoryKey" value="single&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/plugins/woocommerce/templates/single-product.php&#10;footer&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/footer.php&#10;smooth&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_smoothstate-intitiate.js&#10;l&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/logouter.php&#10;front&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;funct&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;func&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;fun&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;variables.sc&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_variables.scss&#10;body&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;front-pag&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_front-page.scss&#10;function&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;bo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;gulp&#9;ACTION&#9;ActivateGulpToolWindow&#10;header.php&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/header.php&#10;BOD&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;functi&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;sing&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product.php&#10;categor&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_product-category.scss&#10;meta&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/woocommerce/single-product/meta.php&#10;maso&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_masonry-initiate.js&#10;mason&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/vendor/masonry/masonry.js&#10;loop&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;sys&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;machin&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;home-sear&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home-search.js&#10;front-page.sc&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_front-page.scss&#10;functions&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/functions.php&#10;bod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_body.scss&#10;produc&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;sys-p&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;gulpf&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/gulpfile.js&#10;single-prod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/plugins/woocommerce/templates/single-product.php&#10;sear&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home_search_by_machines.js&#10;fron&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/front-page.php&#10;termina&#9;ACTION&#9;ActivateTerminalToolWindow&#10;header&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/header.php&#10;smoo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_smoothstate-initiate.js&#10;termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;se&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_home-search.js&#10;header.scss&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_header.scss&#10;loo&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;main.scs&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/main.scss&#10;gu&#9;ACTION&#9;ActivateGulpToolWindow&#10;prod&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/sys-product-loop.php&#10;GULP&#9;ACTION&#9;ActivateGulpToolWindow&#10;headr&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_initiate-headroom.js&#10;explorer&#9;ACTION&#9;RevealIn&#10;gul&#9;ACTION&#9;ActivateGulpToolWindow&#10;var&#9;FILE&#9;file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/stylesheets/_variables.scss" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../sys" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -766,7 +763,7 @@
       <workItem from="1462951588017" duration="17498000" />
       <workItem from="1462976549523" duration="925000" />
       <workItem from="1463042073642" duration="30000" />
-      <workItem from="1463042177213" duration="4243000" />
+      <workItem from="1463042177213" duration="5746000" />
     </task>
     <task id="LOCAL-00001" summary="Made table heading normal case again">
       <created>1460555474817</created>
@@ -999,11 +996,18 @@
       <option name="project" value="LOCAL" />
       <updated>1462975629782</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="FIX: Stopped SmoothState from handling logout and also caching pages ( this caused issues with deleted cart items still showing up! )">
+      <created>1463046876152</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1463046876152</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278569000" />
+    <option name="totallyTimeSpent" value="280072000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1022,11 +1026,11 @@
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1399177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.50262123" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21215352" sideWeight="0.46193415" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6399177" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25308642" sideWeight="0.49475753" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13182287" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2523172" sideWeight="0.49475753" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32201645" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21215352" sideWeight="0.46193415" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21215352" sideWeight="0.53806585" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21215352" sideWeight="0.46240988" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21215352" sideWeight="0.5375901" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.4789189" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20628998" sideWeight="0.34706488" order="2" side_tool="true" content_ui="tabs" />
@@ -1078,7 +1082,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed category machines to parts &amp; accessories" />
     <MESSAGE value="Fixed issue with edit address fields clearing each other ( not being in 3 columns )" />
     <MESSAGE value="Fixed issue with users being asked if they want to log out again when logging in after logging out." />
     <MESSAGE value="Think we're all done! just made some minor changed to the smoothstate initiate script and that's all! ( still waiting for the Firefox back buttons to be fixed though )" />
@@ -1103,7 +1106,8 @@
     <MESSAGE value="IMPROVEMENTS: Single product page style changes, added featured image adn lightbox as well" />
     <MESSAGE value="FIX: Home product search not working with the new product loop" />
     <MESSAGE value="UPDATE: Leaving the job tomorrow, hopefully done everything that they want now, hello to new developer :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: Leaving the job tomorrow, hopefully done everything that they want now, hello to new developer :)" />
+    <MESSAGE value="FIX: Stopped SmoothState from handling logout and also caching pages ( this caused issues with deleted cart items still showing up! )" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIX: Stopped SmoothState from handling logout and also caching pages ( this caused issues with deleted cart items still showing up! )" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs\consumables</wordpressPath>
@@ -1131,20 +1135,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../plugins/sys-standard-shipping/sys-standard-shipping.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../plugins/sys-purchase-order/sys-purchase-order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="74" column="288" selection-start-line="74" selection-start-column="288" selection-end-line="74" selection-end-column="288" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../plugins/sys-validate-checkout-options/sys-validate-checkout-options.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1164,13 +1154,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="55" column="8" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1333,8 +1316,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="476">
+          <caret line="17" column="70" selection-start-line="16" selection-start-column="26" selection-end-line="17" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/templates/single-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/single-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
           <folding />
         </state>
       </provider>

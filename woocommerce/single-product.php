@@ -38,6 +38,7 @@
 				<div class="col-xs-12 single__product__alert">
 					<?php wc_print_notices (); ?>
 				</div>
+				<div class="clearfix"></div>
 
 				<?php
 					if ( has_post_thumbnail () )
