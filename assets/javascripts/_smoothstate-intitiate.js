@@ -34,8 +34,8 @@ jQuery ( document ).ready ( function ( $ )
 	$ ( '#smoothstate' ).smoothState ( {
 		// prefetches content before the user releases their finger (touchscreen)
 		prefetch : true,
-		cacheLength : 25,
 		allowFormCaching : false,
+		blacklist : '.no-smoothstate',
 		forms : '.this-is-a-class-that-is-not-used',
 
 		// runs once the ajax request starts

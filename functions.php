@@ -23,7 +23,7 @@
 	* Add Actions
 	* */
 	add_action ( 'new_customer_registered', 'new_customer_registered_send_email_admin' );
-	add_action ( 'wp_logout', 'redirect_after_logout' );
+//	add_action ( 'wp_logout', 'redirect_after_logout' );
 	add_action ( 'woocommerce_created_customer', 'add_extra_registration_fields' );
 	add_action ( 'login_head', 'sys_login_logo' );
 	add_action ( 'after_setup_theme', 'woocommerce_support' );
@@ -303,11 +303,11 @@ background-size:auto!important;
 // // //
 // log out redirect for WooCommerce
 // // //
-	function redirect_after_logout ()
-	{
-		wp_redirect ( home_url () );
-		exit();
-	}
+//	function redirect_after_logout ()
+//	{
+//		wp_redirect ( home_url () );
+//		exit();
+//	}
 
 // // //
 // force users to enter first and last name when signing up
